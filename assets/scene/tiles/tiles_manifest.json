@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-31",
+  "style": "warm cute top-down AI agent campus",
+  "source": "imagegen atlas with local chroma-key removal",
+  "assets": [
+    {
+      "id": "grass",
+      "file": "assets/scene/tiles/tile_grass.png",
+      "size": {
+        "width": 128,
+        "height": 128
+      },
+      "sourceAtlas": "assets/source/imagegen/d1_environment_atlas.png",
+      "sourceCell": {
+        "columns": 4,
+        "rows": 4,
+        "column": 0,
+        "row": 0
+      }
+    },
+    {
+      "id": "wood_floor",
+      "file": "assets/scene/tiles/tile_wood_floor.png",
+      "size": {
+        "width": 128,
+        "height": 128
+      },
+      "sourceAtlas": "assets/source/imagegen/d1_environment_atlas.png",
+      "sourceCell": {
+        "columns": 4,
+        "rows": 4,
+        "column": 1,
+        "row": 0
+      }
+    },
+    {
+      "id": "stone_path",
+      "file": "assets/scene/tiles/tile_stone_path.png",
+      "size": {
+        "width": 128,
+        "height": 128
+      },
+      "sourceAtlas": "assets/source/imagegen/d1_environment_atlas.png",
+      "sourceCell": {
+        "columns": 4,
+        "rows": 4,
+        "column": 2,
+        "row": 0
+      }
+    },
+    {
+      "id": "wall_round",
+      "file": "assets/scene/tiles/tile_wall_round.png",
+      "size": {
+        "width": 128,
+        "height": 128
+      },
+      "sourceAtlas": "assets/source/imagegen/d1_environment_atlas.png",
+      "sourceCell": {
+        "columns": 4,
+        "rows": 4,
+        "column": 3,
+        "row": 0
+      }
+    },
+    {
+      "id": "door_arch",
+      "file": "assets/scene/tiles/tile_door_arch.png",
+      "size": {
+        "width": 128,
+        "height": 128
+      },
+      "sourceAtlas": "assets/source/imagegen/d1_environment_atlas.png",
+      "sourceCell": {
+        "columns": 4,
+        "rows": 4,
+        "column": 0,
+        "row": 1
+      }
+    },
+    {
+      "id": "window",
+      "file": "assets/scene/tiles/tile_window.png",
+      "size": {
+        "width": 128,
+        "height": 128
+      },
+      "sourceAtlas": "assets/source/imagegen/d1_environment_atlas.png",
+      "sourceCell": {
+        "columns": 4,
+        "rows": 4,
+        "column": 1,
+        "row": 1
+      }
+    },
+    {
+      "id": "fence",
+      "file": "assets/scene/tiles/tile_fence.png",
+      "size": {
+        "width": 128,
+        "height": 128
+      },
+      "sourceAtlas": "assets/source/imagegen/d1_environment_atlas.png",
+      "sourceCell": {
+        "columns": 4,
+        "rows": 4,
+        "column": 2,
+        "row": 1
+      }
+    }
+  ]
+}

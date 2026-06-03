@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "characterId": "red-panda-manager",
+  "label": "Red Panda Manager",
+  "team": "animal-agent-team",
+  "role": "task planning and dispatch",
+  "file": "assets/characters/animal-agent-team/red-panda-manager/red-panda-manager_portrait.png",
+  "sourceAtlas": "assets/source/imagegen/d2_animal_agents_atlas.png",
+  "sourceCell": {
+    "columns": 4,
+    "rows": 2,
+    "column": 0,
+    "row": 0
+  },
+  "status": "validated-candidate",
+  "notes": [
+    "Generated from imagegen atlas and locally chroma-keyed to alpha PNG.",
+    "Portrait is intended for task cards, documentation, and spritesheet proxy source."
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "characterId": "japan-style-cat-verifier",
+  "label": "Japan Style Cat Verifier",
+  "team": "kawaii-cat-team",
+  "role": "acceptance and checklist verification",
+  "file": "assets/characters/kawaii-cat-team/japan-style-cat-verifier/japan-style-cat-verifier_portrait.png",
+  "sourceAtlas": "assets/source/imagegen/d3_kawaii_cats_atlas.png",
+  "sourceCell": {
+    "columns": 3,
+    "rows": 2,
+    "column": 1,
+    "row": 1
+  },
+  "status": "validated-candidate",
+  "notes": [
+    "Generated from imagegen atlas and locally chroma-keyed to alpha PNG.",
+    "Portrait is intended for task cards, documentation, and spritesheet proxy source."
+  ]
+}

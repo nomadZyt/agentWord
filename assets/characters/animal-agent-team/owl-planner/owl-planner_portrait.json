@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "characterId": "owl-planner",
+  "label": "Owl Planner",
+  "team": "animal-agent-team",
+  "role": "architecture planning",
+  "file": "assets/characters/animal-agent-team/owl-planner/owl-planner_portrait.png",
+  "sourceAtlas": "assets/source/imagegen/d2_animal_agents_atlas.png",
+  "sourceCell": {
+    "columns": 4,
+    "rows": 2,
+    "column": 1,
+    "row": 1
+  },
+  "status": "validated-candidate",
+  "notes": [
+    "Generated from imagegen atlas and locally chroma-keyed to alpha PNG.",
+    "Portrait is intended for task cards, documentation, and spritesheet proxy source."
+  ]
+}

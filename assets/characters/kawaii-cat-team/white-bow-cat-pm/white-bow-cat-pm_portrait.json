@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "characterId": "white-bow-cat-pm",
+  "label": "White Bow Cat PM",
+  "team": "kawaii-cat-team",
+  "role": "project management and planning",
+  "file": "assets/characters/kawaii-cat-team/white-bow-cat-pm/white-bow-cat-pm_portrait.png",
+  "sourceAtlas": "assets/source/imagegen/d3_kawaii_cats_atlas.png",
+  "sourceCell": {
+    "columns": 3,
+    "rows": 2,
+    "column": 0,
+    "row": 0
+  },
+  "status": "validated-candidate",
+  "notes": [
+    "Generated from imagegen atlas and locally chroma-keyed to alpha PNG.",
+    "Portrait is intended for task cards, documentation, and spritesheet proxy source."
+  ]
+}

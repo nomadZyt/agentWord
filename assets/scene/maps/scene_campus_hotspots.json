@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "asset": "assets/scene/maps/scene_campus_base_1920x1280.png",
+  "coordinateSpace": {
+    "width": 1536,
+    "height": 1024,
+    "origin": "top-left"
+  },
+  "rooms": [
+    {
+      "id": "room_queue",
+      "rect": { "x": 28, "y": 132, "width": 415, "height": 555 },
+      "center": { "x": 236, "y": 410 },
+      "entryPoint": { "x": 218, "y": 580 },
+      "cameraFocus": { "x": 245, "y": 390 }
+    },
+    {
+      "id": "room_planning",
+      "rect": { "x": 64, "y": 86, "width": 390, "height": 318 },
+      "center": { "x": 260, "y": 248 },
+      "entryPoint": { "x": 446, "y": 272 },
+      "cameraFocus": { "x": 270, "y": 240 }
+    },
+    {
+      "id": "room_execution",
+      "rect": { "x": 550, "y": 42, "width": 492, "height": 410 },
+      "center": { "x": 790, "y": 250 },
+      "entryPoint": { "x": 742, "y": 423 },
+      "cameraFocus": { "x": 792, "y": 260 }
+    },
+    {
+      "id": "room_verification",
+      "rect": { "x": 1074, "y": 438, "width": 356, "height": 214 },
+      "center": { "x": 1260, "y": 550 },
+      "entryPoint": { "x": 1118, "y": 618 },
+      "cameraFocus": { "x": 1260, "y": 540 }
+    },
+    {
+      "id": "room_blocked",
+      "rect": { "x": 1050, "y": 76, "width": 430, "height": 352 },
+      "center": { "x": 1266, "y": 254 },
+      "entryPoint": { "x": 1118, "y": 347 },
+      "cameraFocus": { "x": 1268, "y": 250 }
+    },
+    {
+      "id": "room_archive",
+      "rect": { "x": 982, "y": 680, "width": 486, "height": 258 },
+      "center": { "x": 1230, "y": 812 },
+      "entryPoint": { "x": 1078, "y": 702 },
+      "cameraFocus": { "x": 1230, "y": 810 }
+    },
+    {
+      "id": "rest_area",
+      "rect": { "x": 790, "y": 664, "width": 248, "height": 260 },
+      "center": { "x": 920, "y": 792 },
+      "entryPoint": { "x": 922, "y": 670 },
+      "cameraFocus": { "x": 920, "y": 792 }
+    },
+    {
+      "id": "monitor_wall",
+      "rect": { "x": 620, "y": 86, "width": 330, "height": 76 },
+      "center": { "x": 785, "y": 124 },
+      "entryPoint": { "x": 786, "y": 188 },
+      "cameraFocus": { "x": 785, "y": 155 }
+    },
+    {
+      "id": "subagent_nest",
+      "rect": { "x": 742, "y": 450, "width": 250, "height": 144 },
+      "center": { "x": 870, "y": 522 },
+      "entryPoint": { "x": 884, "y": 456 },
+      "cameraFocus": { "x": 870, "y": 522 }
+    },
+    {
+      "id": "garden_path",
+      "rect": { "x": 420, "y": 410, "width": 620, "height": 440 },
+      "center": { "x": 710, "y": 610 },
+      "entryPoint": { "x": 710, "y": 610 },
+      "cameraFocus": { "x": 710, "y": 610 }
+    }
+  ],
+  "paths": [
+    {
+      "id": "main_task_flow",
+      "points": [
+        { "x": 218, "y": 580 },
+        { "x": 446, "y": 272 },
+        { "x": 742, "y": 423 },
+        { "x": 1118, "y": 618 },
+        { "x": 1078, "y": 702 }
+      ]
+    },
+    {
+      "id": "blocked_flow",
+      "points": [
+        { "x": 742, "y": 423 },
+        { "x": 990, "y": 430 },
+        { "x": 1118, "y": 347 }
+      ]
+    },
+    {
+      "id": "subagent_flow",
+      "points": [
+        { "x": 870, "y": 522 },
+        { "x": 884, "y": 456 },
+        { "x": 742, "y": 423 },
+        { "x": 790, "y": 250 }
+      ]
+    },
+    {
+      "id": "rest_flow",
+      "points": [
+        { "x": 920, "y": 792 },
+        { "x": 710, "y": 610 },
+        { "x": 742, "y": 423 }
+      ]
+    }
+  ],
+  "spawnPoints": [
+    { "id": "spawn_task_queue", "roomId": "room_queue", "position": { "x": 185, "y": 560 } },
+    { "id": "spawn_planner", "roomId": "room_planning", "position": { "x": 305, "y": 265 } },
+    { "id": "spawn_engineer_a", "roomId": "room_execution", "position": { "x": 665, "y": 300 } },
+    { "id": "spawn_engineer_b", "roomId": "room_execution", "position": { "x": 900, "y": 300 } },
+    { "id": "spawn_verifier", "roomId": "room_verification", "position": { "x": 1260, "y": 540 } },
+    { "id": "spawn_ops", "roomId": "room_blocked", "position": { "x": 1268, "y": 250 } },
+    { "id": "spawn_archive", "roomId": "room_archive", "position": { "x": 1230, "y": 812 } },
+    { "id": "spawn_subagent", "roomId": "subagent_nest", "position": { "x": 870, "y": 522 } }
+  ]
+}

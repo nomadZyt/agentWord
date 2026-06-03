@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-31",
+  "style": "warm cute top-down AI agent campus",
+  "source": "imagegen atlas with local chroma-key removal",
+  "assets": [
+    {
+      "id": "desk_single",
+      "file": "assets/scene/props/prop_desk_single.png",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "sourceAtlas": "assets/source/imagegen/d1_environment_atlas.png",
+      "sourceCell": {
+        "columns": 4,
+        "rows": 4,
+        "column": 3,
+        "row": 1
+      }
+    },
+    {
+      "id": "computer",
+      "file": "assets/scene/props/prop_computer.png",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "sourceAtlas": "assets/source/imagegen/d1_environment_atlas.png",
+      "sourceCell": {
+        "columns": 4,
+        "rows": 4,
+        "column": 0,
+        "row": 2
+      }
+    },
+    {
+      "id": "task_board",
+      "file": "assets/scene/props/prop_task_board.png",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "sourceAtlas": "assets/source/imagegen/d1_environment_atlas.png",
+      "sourceCell": {
+        "columns": 4,
+        "rows": 4,
+        "column": 1,
+        "row": 2
+      }
+    },
+    {
+      "id": "server_cabinet",
+      "file": "assets/scene/props/prop_server_cabinet.png",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "sourceAtlas": "assets/source/imagegen/d1_environment_atlas.png",
+      "sourceCell": {
+        "columns": 4,
+        "rows": 4,
+        "column": 2,
+        "row": 2
+      }
+    },
+    {
+      "id": "terminal_station",
+      "file": "assets/scene/props/prop_terminal_station.png",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "sourceAtlas": "assets/source/imagegen/d1_props_atlas.png",
+      "sourceCell": {
+        "columns": 3,
+        "rows": 2,
+        "column": 0,
+        "row": 0
+      }
+    },
+    {
+      "id": "archive_shelf",
+      "file": "assets/scene/props/prop_archive_shelf.png",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "sourceAtlas": "assets/source/imagegen/d1_props_atlas.png",
+      "sourceCell": {
+        "columns": 3,
+        "rows": 2,
+        "column": 1,
+        "row": 0
+      }
+    },
+    {
+      "id": "checklist_table",
+      "file": "assets/scene/props/prop_checklist_table.png",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "sourceAtlas": "assets/source/imagegen/d1_props_atlas.png",
+      "sourceCell": {
+        "columns": 3,
+        "rows": 2,
+        "column": 2,
+        "row": 0
+      }
+    },
+    {
+      "id": "alert_lamp",
+      "file": "assets/scene/props/prop_alert_lamp.png",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "sourceAtlas": "assets/source/imagegen/d1_props_atlas.png",
+      "sourceCell": {
+        "columns": 3,
+        "rows": 2,
+        "column": 0,
+        "row": 1
+      }
+    },
+    {
+      "id": "waiting_chair",
+      "file": "assets/scene/props/prop_waiting_chair.png",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "sourceAtlas": "assets/source/imagegen/d1_props_atlas.png",
+      "sourceCell": {
+        "columns": 3,
+        "rows": 2,
+        "column": 1,
+        "row": 1
+      }
+    },
+    {
+      "id": "process_counter_panel",
+      "file": "assets/scene/props/prop_process_counter_panel.png",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "sourceAtlas": "assets/source/imagegen/d1_props_atlas.png",
+      "sourceCell": {
+        "columns": 3,
+        "rows": 2,
+        "column": 2,
+        "row": 1
+      }
+    }
+  ]
+}

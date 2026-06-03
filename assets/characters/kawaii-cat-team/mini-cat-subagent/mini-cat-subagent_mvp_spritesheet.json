@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "characterId": "mini-cat-subagent",
+  "team": "kawaii-cat-team",
+  "source": "assets/characters/kawaii-cat-team/mini-cat-subagent/mini-cat-subagent_mvp_spritesheet.png",
+  "frameWidth": 256,
+  "frameHeight": 256,
+  "columns": 4,
+  "rows": 8,
+  "anchor": {
+    "x": 0.5,
+    "y": 1.0
+  },
+  "status": "validated-candidate",
+  "validationPreview": "assets/review/spritesheets/mini-cat-subagent_mvp_spritesheet_compare_96.png",
+  "actions": [
+    {
+      "id": "idle",
+      "row": 0,
+      "frames": 4,
+      "fps": 5,
+      "source": "assets/characters/kawaii-cat-team/mini-cat-subagent/mini-cat-subagent_idle_refined.png"
+    },
+    {
+      "id": "walk_down",
+      "row": 1,
+      "frames": 4,
+      "fps": 10,
+      "source": "assets/characters/kawaii-cat-team/mini-cat-subagent/mini-cat-subagent_walk_down_refined.png"
+    },
+    {
+      "id": "walk_up",
+      "row": 2,
+      "frames": 4,
+      "fps": 10,
+      "source": "assets/characters/kawaii-cat-team/mini-cat-subagent/mini-cat-subagent_walk_up_refined.png"
+    },
+    {
+      "id": "walk_left",
+      "row": 3,
+      "frames": 4,
+      "fps": 10,
+      "source": "assets/characters/kawaii-cat-team/mini-cat-subagent/mini-cat-subagent_walk_left_refined.png"
+    },
+    {
+      "id": "walk_right",
+      "row": 4,
+      "frames": 4,
+      "fps": 10,
+      "source": "assets/characters/kawaii-cat-team/mini-cat-subagent/mini-cat-subagent_walk_right_refined.png"
+    },
+    {
+      "id": "carry_task",
+      "row": 5,
+      "frames": 4,
+      "fps": 8,
+      "source": "assets/characters/kawaii-cat-team/mini-cat-subagent/mini-cat-subagent_carry_task_refined.png"
+    },
+    {
+      "id": "working",
+      "row": 6,
+      "frames": 4,
+      "fps": 7,
+      "source": "assets/characters/kawaii-cat-team/mini-cat-subagent/mini-cat-subagent_working_refined.png"
+    },
+    {
+      "id": "done",
+      "row": 7,
+      "frames": 4,
+      "fps": 7,
+      "source": "assets/characters/kawaii-cat-team/mini-cat-subagent/mini-cat-subagent_done_refined.png"
+    }
+  ],
+  "notes": [
+    "Complete mini subagent MVP action set assembled from refined per-action rows.",
+    "Rows are ordered for prototype state mapping: idle, movement, carry_task, working, done.",
+    "Character art stays subagent-sized inside shared 256x256 frame cells.",
+    "Validated at 96px preview for MVP prototype use."
+  ]
+}

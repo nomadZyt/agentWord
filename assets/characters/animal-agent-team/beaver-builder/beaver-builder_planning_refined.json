@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "characterId": "beaver-builder",
+  "team": "animal-agent-team",
+  "action": "planning",
+  "source": "assets/characters/animal-agent-team/beaver-builder/beaver-builder_planning_refined.png",
+  "frameWidth": 256,
+  "frameHeight": 256,
+  "frames": 4,
+  "fps": 6,
+  "anchor": {
+    "x": 0.5,
+    "y": 1.0
+  },
+  "status": "validated-candidate",
+  "validationPreview": "assets/review/spritesheets/beaver-builder_planning_refined_row_96.png",
+  "notes": [
+    "Per-action 4-frame planning row generated on magenta chroma background.",
+    "Background removed with ImageMagick, content trimmed to a 4:1 row, and edge-contracted by 1px.",
+    "Planning gesture uses compact blue blueprint/task cards with no readable text or logos."
+  ]
+}

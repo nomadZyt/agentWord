@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "characterId": "china-style-cat-planner",
+  "label": "China Style Cat Planner",
+  "team": "kawaii-cat-team",
+  "role": "strategy and requirement breakdown",
+  "file": "assets/characters/kawaii-cat-team/china-style-cat-planner/china-style-cat-planner_portrait.png",
+  "sourceAtlas": "assets/source/imagegen/d3_kawaii_cats_atlas.png",
+  "sourceCell": {
+    "columns": 3,
+    "rows": 2,
+    "column": 0,
+    "row": 1
+  },
+  "status": "validated-candidate",
+  "notes": [
+    "Generated from imagegen atlas and locally chroma-keyed to alpha PNG.",
+    "Portrait is intended for task cards, documentation, and spritesheet proxy source."
+  ]
+}

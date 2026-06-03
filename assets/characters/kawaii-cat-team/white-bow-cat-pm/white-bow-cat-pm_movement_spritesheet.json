@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "characterId": "white-bow-cat-pm",
+  "team": "kawaii-cat-team",
+  "source": "assets/characters/kawaii-cat-team/white-bow-cat-pm/white-bow-cat-pm_movement_spritesheet.png",
+  "frameWidth": 256,
+  "frameHeight": 256,
+  "columns": 4,
+  "rows": 5,
+  "anchor": {
+    "x": 0.5,
+    "y": 1
+  },
+  "status": "validated-candidate",
+  "validationPreview": "assets/review/spritesheets/white-bow-cat-pm_movement_compare_96.png",
+  "actions": [
+    {
+      "id": "idle",
+      "fps": 5,
+      "source": "assets/characters/kawaii-cat-team/white-bow-cat-pm/white-bow-cat-pm_idle_refined.png",
+      "row": 0,
+      "frames": [
+        {
+          "col": 0,
+          "x": 0,
+          "y": 0,
+          "width": 256,
+          "height": 256
+        },
+        {
+          "col": 1,
+          "x": 256,
+          "y": 0,
+          "width": 256,
+          "height": 256
+        },
+        {
+          "col": 2,
+          "x": 512,
+          "y": 0,
+          "width": 256,
+          "height": 256
+        },
+        {
+          "col": 3,
+          "x": 768,
+          "y": 0,
+          "width": 256,
+          "height": 256
+        }
+      ]
+    },
+    {
+      "id": "walk_down",
+      "fps": 10,
+      "source": "assets/characters/kawaii-cat-team/white-bow-cat-pm/white-bow-cat-pm_walk_down_refined.png",
+      "row": 1,
+      "frames": [
+        {
+          "col": 0,
+          "x": 0,
+          "y": 256,
+          "width": 256,
+          "height": 256
+        },
+        {
+          "col": 1,
+          "x": 256,
+          "y": 256,
+          "width": 256,
+          "height": 256
+        },
+        {
+          "col": 2,
+          "x": 512,
+          "y": 256,
+          "width": 256,
+          "height": 256
+        },
+        {
+          "col": 3,
+          "x": 768,
+          "y": 256,
+          "width": 256,
+          "height": 256
+        }
+      ]
+    },
+    {
+      "id": "walk_up",
+      "fps": 10,
+      "source": "assets/characters/kawaii-cat-team/white-bow-cat-pm/white-bow-cat-pm_walk_up_refined.png",
+      "row": 2,
+      "frames": [
+        {
+          "col": 0,
+          "x": 0,
+          "y": 512,
+          "width": 256,
+          "height": 256
+        },
+        {
+          "col": 1,
+          "x": 256,
+          "y": 512,
+          "width": 256,
+          "height": 256
+        },
+        {
+          "col": 2,
+          "x": 512,
+          "y": 512,
+          "width": 256,
+          "height": 256
+        },
+        {
+          "col": 3,
+          "x": 768,
+          "y": 512,
+          "width": 256,
+          "height": 256
+        }
+      ]
+    },
+    {
+      "id": "walk_left",
+      "fps": 10,
+      "source": "assets/characters/kawaii-cat-team/white-bow-cat-pm/white-bow-cat-pm_walk_left_refined.png",
+      "row": 3,
+      "frames": [
+        {
+          "col": 0,
+          "x": 0,
+          "y": 768,
+          "width": 256,
+          "height": 256
+        },
+        {
+          "col": 1,
+          "x": 256,
+          "y": 768,
+          "width": 256,
+          "height": 256
+        },
+        {
+          "col": 2,
+          "x": 512,
+          "y": 768,
+          "width": 256,
+          "height": 256
+        },
+        {
+          "col": 3,
+          "x": 768,
+          "y": 768,
+          "width": 256,
+          "height": 256
+        }
+      ]
+    },
+    {
+      "id": "walk_right",
+      "fps": 10,
+      "source": "assets/characters/kawaii-cat-team/white-bow-cat-pm/white-bow-cat-pm_walk_right_refined.png",
+      "row": 4,
+      "frames": [
+        {
+          "col": 0,
+          "x": 0,
+          "y": 1024,
+          "width": 256,
+          "height": 256
+        },
+        {
+          "col": 1,
+          "x": 256,
+          "y": 1024,
+          "width": 256,
+          "height": 256
+        },
+        {
+          "col": 2,
+          "x": 512,
+          "y": 1024,
+          "width": 256,
+          "height": 256
+        },
+        {
+          "col": 3,
+          "x": 768,
+          "y": 1024,
+          "width": 256,
+          "height": 256
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Movement set assembled from refined per-action rows.",
+    "Includes idle plus four directional walk actions.",
+    "Validated at 96px preview for MVP prototype use."
+  ]
+}

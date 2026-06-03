@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "characterId": "white-bow-cat-pm",
+  "team": "kawaii-cat-team",
+  "source": "assets/characters/kawaii-cat-team/white-bow-cat-pm/white-bow-cat-pm_mvp_spritesheet.png",
+  "frameWidth": 256,
+  "frameHeight": 256,
+  "columns": 4,
+  "rows": 10,
+  "anchor": {
+    "x": 0.5,
+    "y": 1.0
+  },
+  "status": "validated-candidate",
+  "validationPreview": "assets/review/spritesheets/white-bow-cat-pm_mvp_spritesheet_compare_96.png",
+  "actions": [
+    {
+      "id": "idle",
+      "row": 0,
+      "frames": 4,
+      "fps": 5,
+      "source": "assets/characters/kawaii-cat-team/white-bow-cat-pm/white-bow-cat-pm_idle_refined.png"
+    },
+    {
+      "id": "walk_down",
+      "row": 1,
+      "frames": 4,
+      "fps": 10,
+      "source": "assets/characters/kawaii-cat-team/white-bow-cat-pm/white-bow-cat-pm_walk_down_refined.png"
+    },
+    {
+      "id": "walk_up",
+      "row": 2,
+      "frames": 4,
+      "fps": 10,
+      "source": "assets/characters/kawaii-cat-team/white-bow-cat-pm/white-bow-cat-pm_walk_up_refined.png"
+    },
+    {
+      "id": "walk_left",
+      "row": 3,
+      "frames": 4,
+      "fps": 10,
+      "source": "assets/characters/kawaii-cat-team/white-bow-cat-pm/white-bow-cat-pm_walk_left_refined.png"
+    },
+    {
+      "id": "walk_right",
+      "row": 4,
+      "frames": 4,
+      "fps": 10,
+      "source": "assets/characters/kawaii-cat-team/white-bow-cat-pm/white-bow-cat-pm_walk_right_refined.png"
+    },
+    {
+      "id": "planning",
+      "row": 5,
+      "frames": 4,
+      "fps": 7,
+      "source": "assets/characters/kawaii-cat-team/white-bow-cat-pm/white-bow-cat-pm_planning_refined.png"
+    },
+    {
+      "id": "working",
+      "row": 6,
+      "frames": 4,
+      "fps": 7,
+      "source": "assets/characters/kawaii-cat-team/white-bow-cat-pm/white-bow-cat-pm_working_refined.png"
+    },
+    {
+      "id": "verifying",
+      "row": 7,
+      "frames": 4,
+      "fps": 7,
+      "source": "assets/characters/kawaii-cat-team/white-bow-cat-pm/white-bow-cat-pm_verifying_refined.png"
+    },
+    {
+      "id": "blocked",
+      "row": 8,
+      "frames": 4,
+      "fps": 7,
+      "source": "assets/characters/kawaii-cat-team/white-bow-cat-pm/white-bow-cat-pm_blocked_refined.png"
+    },
+    {
+      "id": "done",
+      "row": 9,
+      "frames": 4,
+      "fps": 7,
+      "source": "assets/characters/kawaii-cat-team/white-bow-cat-pm/white-bow-cat-pm_done_refined.png"
+    }
+  ],
+  "notes": [
+    "Complete MVP action set assembled from refined per-action rows.",
+    "Rows are ordered for prototype state mapping: idle, movement, planning, working, verifying, blocked, done.",
+    "Validated at 96px preview for MVP prototype use."
+  ]
+}

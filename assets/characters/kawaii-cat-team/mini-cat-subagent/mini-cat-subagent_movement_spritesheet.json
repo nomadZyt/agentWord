@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "characterId": "mini-cat-subagent",
+  "team": "kawaii-cat-team",
+  "source": "assets/characters/kawaii-cat-team/mini-cat-subagent/mini-cat-subagent_movement_spritesheet.png",
+  "frameWidth": 256,
+  "frameHeight": 256,
+  "columns": 4,
+  "rows": 5,
+  "anchor": {
+    "x": 0.5,
+    "y": 1.0
+  },
+  "status": "validated-candidate",
+  "validationPreview": "assets/review/spritesheets/mini-cat-subagent_movement_compare_96.png",
+  "actions": [
+    {
+      "id": "idle",
+      "row": 0,
+      "frames": 4,
+      "fps": 5,
+      "source": "assets/characters/kawaii-cat-team/mini-cat-subagent/mini-cat-subagent_idle_refined.png"
+    },
+    {
+      "id": "walk_down",
+      "row": 1,
+      "frames": 4,
+      "fps": 10,
+      "source": "assets/characters/kawaii-cat-team/mini-cat-subagent/mini-cat-subagent_walk_down_refined.png"
+    },
+    {
+      "id": "walk_up",
+      "row": 2,
+      "frames": 4,
+      "fps": 10,
+      "source": "assets/characters/kawaii-cat-team/mini-cat-subagent/mini-cat-subagent_walk_up_refined.png"
+    },
+    {
+      "id": "walk_left",
+      "row": 3,
+      "frames": 4,
+      "fps": 10,
+      "source": "assets/characters/kawaii-cat-team/mini-cat-subagent/mini-cat-subagent_walk_left_refined.png"
+    },
+    {
+      "id": "walk_right",
+      "row": 4,
+      "frames": 4,
+      "fps": 10,
+      "source": "assets/characters/kawaii-cat-team/mini-cat-subagent/mini-cat-subagent_walk_right_refined.png"
+    }
+  ],
+  "notes": [
+    "Movement set assembled from refined per-action rows.",
+    "Mini subagent remains subagent-sized inside shared 256x256 frame cells.",
+    "Validated at 96px preview for MVP prototype use."
+  ]
+}

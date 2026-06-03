@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "characterId": "black-fur-cat-ops",
+  "actionId": "verifying",
+  "source": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_verifying_proxy.png",
+  "frameWidth": 256,
+  "frameHeight": 256,
+  "columns": 4,
+  "rows": 1,
+  "frames": 4,
+  "fps": 7,
+  "status": "playable-proxy",
+  "notes": [
+    "Generated from the character portrait with deterministic pose offsets and state props.",
+    "This is a playable D-stage proxy spritesheet, ready to replace with hand-authored animation later."
+  ]
+}

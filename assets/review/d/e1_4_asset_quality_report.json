@@ -1,0 +1,5130 @@
+{
+  "checkedAt": "2026-06-01T04:43:12.339Z",
+  "edgeThresholdPixels": 0,
+  "generatedAt": "2026-06-01",
+  "outputs": {
+    "markdown": "assets/review/d/e1_4_asset_quality_report.md",
+    "reportJson": "assets/review/d/e1_4_asset_quality_report.json",
+    "scale64ContactSheet": "assets/review/d/e1_4_scale_64_contact_sheet.png",
+    "scale96ContactSheet": "assets/review/d/e1_4_scale_96_contact_sheet.png"
+  },
+  "previewItemCount": 89,
+  "previewItems": [
+    {
+      "file": "assets/scene/tiles/tile_grass.png",
+      "group": "tile",
+      "id": "grass",
+      "index": 0,
+      "label": "tile_grass",
+      "sourceType": "full"
+    },
+    {
+      "file": "assets/scene/tiles/tile_wood_floor.png",
+      "group": "tile",
+      "id": "wood_floor",
+      "index": 1,
+      "label": "tile_wood_floor",
+      "sourceType": "full"
+    },
+    {
+      "file": "assets/scene/tiles/tile_stone_path.png",
+      "group": "tile",
+      "id": "stone_path",
+      "index": 2,
+      "label": "tile_stone_path",
+      "sourceType": "full"
+    },
+    {
+      "file": "assets/scene/tiles/tile_wall_round.png",
+      "group": "tile",
+      "id": "wall_round",
+      "index": 3,
+      "label": "tile_wall_round",
+      "sourceType": "full"
+    },
+    {
+      "file": "assets/scene/tiles/tile_door_arch.png",
+      "group": "tile",
+      "id": "door_arch",
+      "index": 4,
+      "label": "tile_door_arch",
+      "sourceType": "full"
+    },
+    {
+      "file": "assets/scene/tiles/tile_window.png",
+      "group": "tile",
+      "id": "window",
+      "index": 5,
+      "label": "tile_window",
+      "sourceType": "full"
+    },
+    {
+      "file": "assets/scene/tiles/tile_fence.png",
+      "group": "tile",
+      "id": "fence",
+      "index": 6,
+      "label": "tile_fence",
+      "sourceType": "full"
+    },
+    {
+      "file": "assets/scene/props/prop_desk_single.png",
+      "group": "prop",
+      "id": "desk_single",
+      "index": 7,
+      "label": "prop_desk_single",
+      "sourceType": "full"
+    },
+    {
+      "file": "assets/scene/props/prop_computer.png",
+      "group": "prop",
+      "id": "computer",
+      "index": 8,
+      "label": "prop_computer",
+      "sourceType": "full"
+    },
+    {
+      "file": "assets/scene/props/prop_task_board.png",
+      "group": "prop",
+      "id": "task_board",
+      "index": 9,
+      "label": "prop_task_board",
+      "sourceType": "full"
+    },
+    {
+      "file": "assets/scene/props/prop_server_cabinet.png",
+      "group": "prop",
+      "id": "server_cabinet",
+      "index": 10,
+      "label": "prop_server_cabinet",
+      "sourceType": "full"
+    },
+    {
+      "file": "assets/scene/props/prop_terminal_station.png",
+      "group": "prop",
+      "id": "terminal_station",
+      "index": 11,
+      "label": "prop_terminal_station",
+      "sourceType": "full"
+    },
+    {
+      "file": "assets/scene/props/prop_archive_shelf.png",
+      "group": "prop",
+      "id": "archive_shelf",
+      "index": 12,
+      "label": "prop_archive_shelf",
+      "sourceType": "full"
+    },
+    {
+      "file": "assets/scene/props/prop_checklist_table.png",
+      "group": "prop",
+      "id": "checklist_table",
+      "index": 13,
+      "label": "prop_checklist_table",
+      "sourceType": "full"
+    },
+    {
+      "file": "assets/scene/props/prop_alert_lamp.png",
+      "group": "prop",
+      "id": "alert_lamp",
+      "index": 14,
+      "label": "prop_alert_lamp",
+      "sourceType": "full"
+    },
+    {
+      "file": "assets/scene/props/prop_waiting_chair.png",
+      "group": "prop",
+      "id": "waiting_chair",
+      "index": 15,
+      "label": "prop_waiting_chair",
+      "sourceType": "full"
+    },
+    {
+      "file": "assets/scene/props/prop_process_counter_panel.png",
+      "group": "prop",
+      "id": "process_counter_panel",
+      "index": 16,
+      "label": "prop_process_counter_panel",
+      "sourceType": "full"
+    },
+    {
+      "file": "assets/characters/animal-agent-team/red-panda-manager/red-panda-manager_portrait.png",
+      "group": "portrait",
+      "id": "red-panda-manager",
+      "index": 17,
+      "label": "portrait_red-panda-manager",
+      "sourceType": "full"
+    },
+    {
+      "file": "assets/characters/animal-agent-team/frog-verifier/frog-verifier_portrait.png",
+      "group": "portrait",
+      "id": "frog-verifier",
+      "index": 18,
+      "label": "portrait_frog-verifier",
+      "sourceType": "full"
+    },
+    {
+      "file": "assets/characters/animal-agent-team/beaver-builder/beaver-builder_portrait.png",
+      "group": "portrait",
+      "id": "beaver-builder",
+      "index": 19,
+      "label": "portrait_beaver-builder",
+      "sourceType": "full"
+    },
+    {
+      "file": "assets/characters/animal-agent-team/penguin-runner/penguin-runner_portrait.png",
+      "group": "portrait",
+      "id": "penguin-runner",
+      "index": 20,
+      "label": "portrait_penguin-runner",
+      "sourceType": "full"
+    },
+    {
+      "file": "assets/characters/animal-agent-team/otter-ops/otter-ops_portrait.png",
+      "group": "portrait",
+      "id": "otter-ops",
+      "index": 21,
+      "label": "portrait_otter-ops",
+      "sourceType": "full"
+    },
+    {
+      "file": "assets/characters/animal-agent-team/owl-planner/owl-planner_portrait.png",
+      "group": "portrait",
+      "id": "owl-planner",
+      "index": 22,
+      "label": "portrait_owl-planner",
+      "sourceType": "full"
+    },
+    {
+      "file": "assets/characters/animal-agent-team/rabbit-timer/rabbit-timer_portrait.png",
+      "group": "portrait",
+      "id": "rabbit-timer",
+      "index": 23,
+      "label": "portrait_rabbit-timer",
+      "sourceType": "full"
+    },
+    {
+      "file": "assets/characters/animal-agent-team/turtle-archivist/turtle-archivist_portrait.png",
+      "group": "portrait",
+      "id": "turtle-archivist",
+      "index": 24,
+      "label": "portrait_turtle-archivist",
+      "sourceType": "full"
+    },
+    {
+      "file": "assets/characters/kawaii-cat-team/white-bow-cat-pm/white-bow-cat-pm_portrait.png",
+      "group": "portrait",
+      "id": "white-bow-cat-pm",
+      "index": 25,
+      "label": "portrait_white-bow-cat-pm",
+      "sourceType": "full"
+    },
+    {
+      "file": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_portrait.png",
+      "group": "portrait",
+      "id": "black-fur-cat-ops",
+      "index": 26,
+      "label": "portrait_black-fur-cat-ops",
+      "sourceType": "full"
+    },
+    {
+      "file": "assets/characters/kawaii-cat-team/tea-cat-engineer/tea-cat-engineer_portrait.png",
+      "group": "portrait",
+      "id": "tea-cat-engineer",
+      "index": 27,
+      "label": "portrait_tea-cat-engineer",
+      "sourceType": "full"
+    },
+    {
+      "file": "assets/characters/kawaii-cat-team/china-style-cat-planner/china-style-cat-planner_portrait.png",
+      "group": "portrait",
+      "id": "china-style-cat-planner",
+      "index": 28,
+      "label": "portrait_china-style-cat-planner",
+      "sourceType": "full"
+    },
+    {
+      "file": "assets/characters/kawaii-cat-team/japan-style-cat-verifier/japan-style-cat-verifier_portrait.png",
+      "group": "portrait",
+      "id": "japan-style-cat-verifier",
+      "index": 29,
+      "label": "portrait_japan-style-cat-verifier",
+      "sourceType": "full"
+    },
+    {
+      "file": "assets/characters/kawaii-cat-team/mini-cat-subagent/mini-cat-subagent_portrait.png",
+      "group": "portrait",
+      "id": "mini-cat-subagent",
+      "index": 30,
+      "label": "portrait_mini-cat-subagent",
+      "sourceType": "full"
+    },
+    {
+      "action": "idle",
+      "file": "assets/characters/animal-agent-team/red-panda-manager/red-panda-manager_mvp_proxy_spritesheet.png",
+      "group": "mvp_proxy",
+      "id": "red-panda-manager",
+      "index": 31,
+      "label": "mvp_red-panda-manager_idle",
+      "sourceType": "frame"
+    },
+    {
+      "action": "walk_down",
+      "file": "assets/characters/animal-agent-team/red-panda-manager/red-panda-manager_mvp_proxy_spritesheet.png",
+      "group": "mvp_proxy",
+      "id": "red-panda-manager",
+      "index": 32,
+      "label": "mvp_red-panda-manager_walk_down",
+      "sourceType": "frame"
+    },
+    {
+      "action": "walk_up",
+      "file": "assets/characters/animal-agent-team/red-panda-manager/red-panda-manager_mvp_proxy_spritesheet.png",
+      "group": "mvp_proxy",
+      "id": "red-panda-manager",
+      "index": 33,
+      "label": "mvp_red-panda-manager_walk_up",
+      "sourceType": "frame"
+    },
+    {
+      "action": "walk_left",
+      "file": "assets/characters/animal-agent-team/red-panda-manager/red-panda-manager_mvp_proxy_spritesheet.png",
+      "group": "mvp_proxy",
+      "id": "red-panda-manager",
+      "index": 34,
+      "label": "mvp_red-panda-manager_walk_left",
+      "sourceType": "frame"
+    },
+    {
+      "action": "walk_right",
+      "file": "assets/characters/animal-agent-team/red-panda-manager/red-panda-manager_mvp_proxy_spritesheet.png",
+      "group": "mvp_proxy",
+      "id": "red-panda-manager",
+      "index": 35,
+      "label": "mvp_red-panda-manager_walk_right",
+      "sourceType": "frame"
+    },
+    {
+      "action": "planning",
+      "file": "assets/characters/animal-agent-team/red-panda-manager/red-panda-manager_mvp_proxy_spritesheet.png",
+      "group": "mvp_proxy",
+      "id": "red-panda-manager",
+      "index": 36,
+      "label": "mvp_red-panda-manager_planning",
+      "sourceType": "frame"
+    },
+    {
+      "action": "working",
+      "file": "assets/characters/animal-agent-team/red-panda-manager/red-panda-manager_mvp_proxy_spritesheet.png",
+      "group": "mvp_proxy",
+      "id": "red-panda-manager",
+      "index": 37,
+      "label": "mvp_red-panda-manager_working",
+      "sourceType": "frame"
+    },
+    {
+      "action": "verifying",
+      "file": "assets/characters/animal-agent-team/red-panda-manager/red-panda-manager_mvp_proxy_spritesheet.png",
+      "group": "mvp_proxy",
+      "id": "red-panda-manager",
+      "index": 38,
+      "label": "mvp_red-panda-manager_verifying",
+      "sourceType": "frame"
+    },
+    {
+      "action": "blocked",
+      "file": "assets/characters/animal-agent-team/red-panda-manager/red-panda-manager_mvp_proxy_spritesheet.png",
+      "group": "mvp_proxy",
+      "id": "red-panda-manager",
+      "index": 39,
+      "label": "mvp_red-panda-manager_blocked",
+      "sourceType": "frame"
+    },
+    {
+      "action": "done",
+      "file": "assets/characters/animal-agent-team/red-panda-manager/red-panda-manager_mvp_proxy_spritesheet.png",
+      "group": "mvp_proxy",
+      "id": "red-panda-manager",
+      "index": 40,
+      "label": "mvp_red-panda-manager_done",
+      "sourceType": "frame"
+    },
+    {
+      "action": "idle",
+      "file": "assets/characters/animal-agent-team/frog-verifier/frog-verifier_mvp_proxy_spritesheet.png",
+      "group": "mvp_proxy",
+      "id": "frog-verifier",
+      "index": 41,
+      "label": "mvp_frog-verifier_idle",
+      "sourceType": "frame"
+    },
+    {
+      "action": "walk_down",
+      "file": "assets/characters/animal-agent-team/frog-verifier/frog-verifier_mvp_proxy_spritesheet.png",
+      "group": "mvp_proxy",
+      "id": "frog-verifier",
+      "index": 42,
+      "label": "mvp_frog-verifier_walk_down",
+      "sourceType": "frame"
+    },
+    {
+      "action": "walk_up",
+      "file": "assets/characters/animal-agent-team/frog-verifier/frog-verifier_mvp_proxy_spritesheet.png",
+      "group": "mvp_proxy",
+      "id": "frog-verifier",
+      "index": 43,
+      "label": "mvp_frog-verifier_walk_up",
+      "sourceType": "frame"
+    },
+    {
+      "action": "walk_left",
+      "file": "assets/characters/animal-agent-team/frog-verifier/frog-verifier_mvp_proxy_spritesheet.png",
+      "group": "mvp_proxy",
+      "id": "frog-verifier",
+      "index": 44,
+      "label": "mvp_frog-verifier_walk_left",
+      "sourceType": "frame"
+    },
+    {
+      "action": "walk_right",
+      "file": "assets/characters/animal-agent-team/frog-verifier/frog-verifier_mvp_proxy_spritesheet.png",
+      "group": "mvp_proxy",
+      "id": "frog-verifier",
+      "index": 45,
+      "label": "mvp_frog-verifier_walk_right",
+      "sourceType": "frame"
+    },
+    {
+      "action": "planning",
+      "file": "assets/characters/animal-agent-team/frog-verifier/frog-verifier_mvp_proxy_spritesheet.png",
+      "group": "mvp_proxy",
+      "id": "frog-verifier",
+      "index": 46,
+      "label": "mvp_frog-verifier_planning",
+      "sourceType": "frame"
+    },
+    {
+      "action": "working",
+      "file": "assets/characters/animal-agent-team/frog-verifier/frog-verifier_mvp_proxy_spritesheet.png",
+      "group": "mvp_proxy",
+      "id": "frog-verifier",
+      "index": 47,
+      "label": "mvp_frog-verifier_working",
+      "sourceType": "frame"
+    },
+    {
+      "action": "verifying",
+      "file": "assets/characters/animal-agent-team/frog-verifier/frog-verifier_mvp_proxy_spritesheet.png",
+      "group": "mvp_proxy",
+      "id": "frog-verifier",
+      "index": 48,
+      "label": "mvp_frog-verifier_verifying",
+      "sourceType": "frame"
+    },
+    {
+      "action": "blocked",
+      "file": "assets/characters/animal-agent-team/frog-verifier/frog-verifier_mvp_proxy_spritesheet.png",
+      "group": "mvp_proxy",
+      "id": "frog-verifier",
+      "index": 49,
+      "label": "mvp_frog-verifier_blocked",
+      "sourceType": "frame"
+    },
+    {
+      "action": "done",
+      "file": "assets/characters/animal-agent-team/frog-verifier/frog-verifier_mvp_proxy_spritesheet.png",
+      "group": "mvp_proxy",
+      "id": "frog-verifier",
+      "index": 50,
+      "label": "mvp_frog-verifier_done",
+      "sourceType": "frame"
+    },
+    {
+      "action": "idle",
+      "file": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_mvp_proxy_spritesheet.png",
+      "group": "mvp_proxy",
+      "id": "black-fur-cat-ops",
+      "index": 51,
+      "label": "mvp_black-fur-cat-ops_idle",
+      "sourceType": "frame"
+    },
+    {
+      "action": "walk_down",
+      "file": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_mvp_proxy_spritesheet.png",
+      "group": "mvp_proxy",
+      "id": "black-fur-cat-ops",
+      "index": 52,
+      "label": "mvp_black-fur-cat-ops_walk_down",
+      "sourceType": "frame"
+    },
+    {
+      "action": "walk_up",
+      "file": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_mvp_proxy_spritesheet.png",
+      "group": "mvp_proxy",
+      "id": "black-fur-cat-ops",
+      "index": 53,
+      "label": "mvp_black-fur-cat-ops_walk_up",
+      "sourceType": "frame"
+    },
+    {
+      "action": "walk_left",
+      "file": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_mvp_proxy_spritesheet.png",
+      "group": "mvp_proxy",
+      "id": "black-fur-cat-ops",
+      "index": 54,
+      "label": "mvp_black-fur-cat-ops_walk_left",
+      "sourceType": "frame"
+    },
+    {
+      "action": "walk_right",
+      "file": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_mvp_proxy_spritesheet.png",
+      "group": "mvp_proxy",
+      "id": "black-fur-cat-ops",
+      "index": 55,
+      "label": "mvp_black-fur-cat-ops_walk_right",
+      "sourceType": "frame"
+    },
+    {
+      "action": "planning",
+      "file": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_mvp_proxy_spritesheet.png",
+      "group": "mvp_proxy",
+      "id": "black-fur-cat-ops",
+      "index": 56,
+      "label": "mvp_black-fur-cat-ops_planning",
+      "sourceType": "frame"
+    },
+    {
+      "action": "working",
+      "file": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_mvp_proxy_spritesheet.png",
+      "group": "mvp_proxy",
+      "id": "black-fur-cat-ops",
+      "index": 57,
+      "label": "mvp_black-fur-cat-ops_working",
+      "sourceType": "frame"
+    },
+    {
+      "action": "verifying",
+      "file": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_mvp_proxy_spritesheet.png",
+      "group": "mvp_proxy",
+      "id": "black-fur-cat-ops",
+      "index": 58,
+      "label": "mvp_black-fur-cat-ops_verifying",
+      "sourceType": "frame"
+    },
+    {
+      "action": "blocked",
+      "file": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_mvp_proxy_spritesheet.png",
+      "group": "mvp_proxy",
+      "id": "black-fur-cat-ops",
+      "index": 59,
+      "label": "mvp_black-fur-cat-ops_blocked",
+      "sourceType": "frame"
+    },
+    {
+      "action": "done",
+      "file": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_mvp_proxy_spritesheet.png",
+      "group": "mvp_proxy",
+      "id": "black-fur-cat-ops",
+      "index": 60,
+      "label": "mvp_black-fur-cat-ops_done",
+      "sourceType": "frame"
+    },
+    {
+      "action": "idle",
+      "file": "assets/characters/kawaii-cat-team/tea-cat-engineer/tea-cat-engineer_mvp_proxy_spritesheet.png",
+      "group": "mvp_proxy",
+      "id": "tea-cat-engineer",
+      "index": 61,
+      "label": "mvp_tea-cat-engineer_idle",
+      "sourceType": "frame"
+    },
+    {
+      "action": "walk_down",
+      "file": "assets/characters/kawaii-cat-team/tea-cat-engineer/tea-cat-engineer_mvp_proxy_spritesheet.png",
+      "group": "mvp_proxy",
+      "id": "tea-cat-engineer",
+      "index": 62,
+      "label": "mvp_tea-cat-engineer_walk_down",
+      "sourceType": "frame"
+    },
+    {
+      "action": "walk_up",
+      "file": "assets/characters/kawaii-cat-team/tea-cat-engineer/tea-cat-engineer_mvp_proxy_spritesheet.png",
+      "group": "mvp_proxy",
+      "id": "tea-cat-engineer",
+      "index": 63,
+      "label": "mvp_tea-cat-engineer_walk_up",
+      "sourceType": "frame"
+    },
+    {
+      "action": "walk_left",
+      "file": "assets/characters/kawaii-cat-team/tea-cat-engineer/tea-cat-engineer_mvp_proxy_spritesheet.png",
+      "group": "mvp_proxy",
+      "id": "tea-cat-engineer",
+      "index": 64,
+      "label": "mvp_tea-cat-engineer_walk_left",
+      "sourceType": "frame"
+    },
+    {
+      "action": "walk_right",
+      "file": "assets/characters/kawaii-cat-team/tea-cat-engineer/tea-cat-engineer_mvp_proxy_spritesheet.png",
+      "group": "mvp_proxy",
+      "id": "tea-cat-engineer",
+      "index": 65,
+      "label": "mvp_tea-cat-engineer_walk_right",
+      "sourceType": "frame"
+    },
+    {
+      "action": "planning",
+      "file": "assets/characters/kawaii-cat-team/tea-cat-engineer/tea-cat-engineer_mvp_proxy_spritesheet.png",
+      "group": "mvp_proxy",
+      "id": "tea-cat-engineer",
+      "index": 66,
+      "label": "mvp_tea-cat-engineer_planning",
+      "sourceType": "frame"
+    },
+    {
+      "action": "working",
+      "file": "assets/characters/kawaii-cat-team/tea-cat-engineer/tea-cat-engineer_mvp_proxy_spritesheet.png",
+      "group": "mvp_proxy",
+      "id": "tea-cat-engineer",
+      "index": 67,
+      "label": "mvp_tea-cat-engineer_working",
+      "sourceType": "frame"
+    },
+    {
+      "action": "verifying",
+      "file": "assets/characters/kawaii-cat-team/tea-cat-engineer/tea-cat-engineer_mvp_proxy_spritesheet.png",
+      "group": "mvp_proxy",
+      "id": "tea-cat-engineer",
+      "index": 68,
+      "label": "mvp_tea-cat-engineer_verifying",
+      "sourceType": "frame"
+    },
+    {
+      "action": "blocked",
+      "file": "assets/characters/kawaii-cat-team/tea-cat-engineer/tea-cat-engineer_mvp_proxy_spritesheet.png",
+      "group": "mvp_proxy",
+      "id": "tea-cat-engineer",
+      "index": 69,
+      "label": "mvp_tea-cat-engineer_blocked",
+      "sourceType": "frame"
+    },
+    {
+      "action": "done",
+      "file": "assets/characters/kawaii-cat-team/tea-cat-engineer/tea-cat-engineer_mvp_proxy_spritesheet.png",
+      "group": "mvp_proxy",
+      "id": "tea-cat-engineer",
+      "index": 70,
+      "label": "mvp_tea-cat-engineer_done",
+      "sourceType": "frame"
+    },
+    {
+      "action": "handoff",
+      "file": "assets/characters/kawaii-cat-team/white-bow-cat-pm/white-bow-cat-pm_advanced_spritesheet.png",
+      "group": "advanced",
+      "id": "white-bow-cat-pm",
+      "index": 71,
+      "label": "adv_white-bow-cat-pm_handoff",
+      "sourceType": "frame"
+    },
+    {
+      "action": "summon_subagent",
+      "file": "assets/characters/kawaii-cat-team/white-bow-cat-pm/white-bow-cat-pm_advanced_spritesheet.png",
+      "group": "advanced",
+      "id": "white-bow-cat-pm",
+      "index": 72,
+      "label": "adv_white-bow-cat-pm_summon_subagent",
+      "sourceType": "frame"
+    },
+    {
+      "action": "merge_result",
+      "file": "assets/characters/kawaii-cat-team/white-bow-cat-pm/white-bow-cat-pm_advanced_spritesheet.png",
+      "group": "advanced",
+      "id": "white-bow-cat-pm",
+      "index": 73,
+      "label": "adv_white-bow-cat-pm_merge_result",
+      "sourceType": "frame"
+    },
+    {
+      "action": "handoff",
+      "file": "assets/characters/animal-agent-team/beaver-builder/beaver-builder_advanced_spritesheet.png",
+      "group": "advanced",
+      "id": "beaver-builder",
+      "index": 74,
+      "label": "adv_beaver-builder_handoff",
+      "sourceType": "frame"
+    },
+    {
+      "action": "summon_subagent",
+      "file": "assets/characters/animal-agent-team/beaver-builder/beaver-builder_advanced_spritesheet.png",
+      "group": "advanced",
+      "id": "beaver-builder",
+      "index": 75,
+      "label": "adv_beaver-builder_summon_subagent",
+      "sourceType": "frame"
+    },
+    {
+      "action": "merge_result",
+      "file": "assets/characters/animal-agent-team/beaver-builder/beaver-builder_advanced_spritesheet.png",
+      "group": "advanced",
+      "id": "beaver-builder",
+      "index": 76,
+      "label": "adv_beaver-builder_merge_result",
+      "sourceType": "frame"
+    },
+    {
+      "action": "handoff",
+      "file": "assets/characters/animal-agent-team/red-panda-manager/red-panda-manager_advanced_spritesheet.png",
+      "group": "advanced",
+      "id": "red-panda-manager",
+      "index": 77,
+      "label": "adv_red-panda-manager_handoff",
+      "sourceType": "frame"
+    },
+    {
+      "action": "summon_subagent",
+      "file": "assets/characters/animal-agent-team/red-panda-manager/red-panda-manager_advanced_spritesheet.png",
+      "group": "advanced",
+      "id": "red-panda-manager",
+      "index": 78,
+      "label": "adv_red-panda-manager_summon_subagent",
+      "sourceType": "frame"
+    },
+    {
+      "action": "merge_result",
+      "file": "assets/characters/animal-agent-team/red-panda-manager/red-panda-manager_advanced_spritesheet.png",
+      "group": "advanced",
+      "id": "red-panda-manager",
+      "index": 79,
+      "label": "adv_red-panda-manager_merge_result",
+      "sourceType": "frame"
+    },
+    {
+      "action": "handoff",
+      "file": "assets/characters/animal-agent-team/frog-verifier/frog-verifier_advanced_spritesheet.png",
+      "group": "advanced",
+      "id": "frog-verifier",
+      "index": 80,
+      "label": "adv_frog-verifier_handoff",
+      "sourceType": "frame"
+    },
+    {
+      "action": "summon_subagent",
+      "file": "assets/characters/animal-agent-team/frog-verifier/frog-verifier_advanced_spritesheet.png",
+      "group": "advanced",
+      "id": "frog-verifier",
+      "index": 81,
+      "label": "adv_frog-verifier_summon_subagent",
+      "sourceType": "frame"
+    },
+    {
+      "action": "merge_result",
+      "file": "assets/characters/animal-agent-team/frog-verifier/frog-verifier_advanced_spritesheet.png",
+      "group": "advanced",
+      "id": "frog-verifier",
+      "index": 82,
+      "label": "adv_frog-verifier_merge_result",
+      "sourceType": "frame"
+    },
+    {
+      "action": "handoff",
+      "file": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_advanced_spritesheet.png",
+      "group": "advanced",
+      "id": "black-fur-cat-ops",
+      "index": 83,
+      "label": "adv_black-fur-cat-ops_handoff",
+      "sourceType": "frame"
+    },
+    {
+      "action": "summon_subagent",
+      "file": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_advanced_spritesheet.png",
+      "group": "advanced",
+      "id": "black-fur-cat-ops",
+      "index": 84,
+      "label": "adv_black-fur-cat-ops_summon_subagent",
+      "sourceType": "frame"
+    },
+    {
+      "action": "merge_result",
+      "file": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_advanced_spritesheet.png",
+      "group": "advanced",
+      "id": "black-fur-cat-ops",
+      "index": 85,
+      "label": "adv_black-fur-cat-ops_merge_result",
+      "sourceType": "frame"
+    },
+    {
+      "action": "handoff",
+      "file": "assets/characters/kawaii-cat-team/tea-cat-engineer/tea-cat-engineer_advanced_spritesheet.png",
+      "group": "advanced",
+      "id": "tea-cat-engineer",
+      "index": 86,
+      "label": "adv_tea-cat-engineer_handoff",
+      "sourceType": "frame"
+    },
+    {
+      "action": "summon_subagent",
+      "file": "assets/characters/kawaii-cat-team/tea-cat-engineer/tea-cat-engineer_advanced_spritesheet.png",
+      "group": "advanced",
+      "id": "tea-cat-engineer",
+      "index": 87,
+      "label": "adv_tea-cat-engineer_summon_subagent",
+      "sourceType": "frame"
+    },
+    {
+      "action": "merge_result",
+      "file": "assets/characters/kawaii-cat-team/tea-cat-engineer/tea-cat-engineer_advanced_spritesheet.png",
+      "group": "advanced",
+      "id": "tea-cat-engineer",
+      "index": 88,
+      "label": "adv_tea-cat-engineer_merge_result",
+      "sourceType": "frame"
+    }
+  ],
+  "checks": [
+    {
+      "dimensionPass": true,
+      "edge": {
+        "bottom": 0,
+        "edgePixels": 508,
+        "edgeOpaquePixels": 0,
+        "edgeOpaqueRatio": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0
+      },
+      "edgePolicy": "reported",
+      "expectedSize": {
+        "width": 128,
+        "height": 128
+      },
+      "file": "assets/scene/tiles/tile_grass.png",
+      "group": "tiles",
+      "id": "grass",
+      "kind": "image",
+      "size": {
+        "width": 128,
+        "height": 128
+      },
+      "status": "reported"
+    },
+    {
+      "dimensionPass": true,
+      "edge": {
+        "bottom": 0,
+        "edgePixels": 508,
+        "edgeOpaquePixels": 0,
+        "edgeOpaqueRatio": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0
+      },
+      "edgePolicy": "reported",
+      "expectedSize": {
+        "width": 128,
+        "height": 128
+      },
+      "file": "assets/scene/tiles/tile_wood_floor.png",
+      "group": "tiles",
+      "id": "wood_floor",
+      "kind": "image",
+      "size": {
+        "width": 128,
+        "height": 128
+      },
+      "status": "reported"
+    },
+    {
+      "dimensionPass": true,
+      "edge": {
+        "bottom": 0,
+        "edgePixels": 508,
+        "edgeOpaquePixels": 0,
+        "edgeOpaqueRatio": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0
+      },
+      "edgePolicy": "reported",
+      "expectedSize": {
+        "width": 128,
+        "height": 128
+      },
+      "file": "assets/scene/tiles/tile_stone_path.png",
+      "group": "tiles",
+      "id": "stone_path",
+      "kind": "image",
+      "size": {
+        "width": 128,
+        "height": 128
+      },
+      "status": "reported"
+    },
+    {
+      "dimensionPass": true,
+      "edge": {
+        "bottom": 0,
+        "edgePixels": 508,
+        "edgeOpaquePixels": 0,
+        "edgeOpaqueRatio": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0
+      },
+      "edgePolicy": "reported",
+      "expectedSize": {
+        "width": 128,
+        "height": 128
+      },
+      "file": "assets/scene/tiles/tile_wall_round.png",
+      "group": "tiles",
+      "id": "wall_round",
+      "kind": "image",
+      "size": {
+        "width": 128,
+        "height": 128
+      },
+      "status": "reported"
+    },
+    {
+      "dimensionPass": true,
+      "edge": {
+        "bottom": 0,
+        "edgePixels": 508,
+        "edgeOpaquePixels": 0,
+        "edgeOpaqueRatio": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0
+      },
+      "edgePolicy": "reported",
+      "expectedSize": {
+        "width": 128,
+        "height": 128
+      },
+      "file": "assets/scene/tiles/tile_door_arch.png",
+      "group": "tiles",
+      "id": "door_arch",
+      "kind": "image",
+      "size": {
+        "width": 128,
+        "height": 128
+      },
+      "status": "reported"
+    },
+    {
+      "dimensionPass": true,
+      "edge": {
+        "bottom": 0,
+        "edgePixels": 508,
+        "edgeOpaquePixels": 0,
+        "edgeOpaqueRatio": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0
+      },
+      "edgePolicy": "reported",
+      "expectedSize": {
+        "width": 128,
+        "height": 128
+      },
+      "file": "assets/scene/tiles/tile_window.png",
+      "group": "tiles",
+      "id": "window",
+      "kind": "image",
+      "size": {
+        "width": 128,
+        "height": 128
+      },
+      "status": "reported"
+    },
+    {
+      "dimensionPass": true,
+      "edge": {
+        "bottom": 0,
+        "edgePixels": 508,
+        "edgeOpaquePixels": 0,
+        "edgeOpaqueRatio": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0
+      },
+      "edgePolicy": "reported",
+      "expectedSize": {
+        "width": 128,
+        "height": 128
+      },
+      "file": "assets/scene/tiles/tile_fence.png",
+      "group": "tiles",
+      "id": "fence",
+      "kind": "image",
+      "size": {
+        "width": 128,
+        "height": 128
+      },
+      "status": "reported"
+    },
+    {
+      "dimensionPass": true,
+      "edge": {
+        "bottom": 0,
+        "edgePixels": 1020,
+        "edgeOpaquePixels": 0,
+        "edgeOpaqueRatio": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0
+      },
+      "edgePolicy": "required-transparent",
+      "expectedSize": {
+        "width": 256,
+        "height": 256
+      },
+      "file": "assets/scene/props/prop_desk_single.png",
+      "group": "props",
+      "id": "desk_single",
+      "kind": "image",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "status": "passed"
+    },
+    {
+      "dimensionPass": true,
+      "edge": {
+        "bottom": 0,
+        "edgePixels": 1020,
+        "edgeOpaquePixels": 0,
+        "edgeOpaqueRatio": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0
+      },
+      "edgePolicy": "required-transparent",
+      "expectedSize": {
+        "width": 256,
+        "height": 256
+      },
+      "file": "assets/scene/props/prop_computer.png",
+      "group": "props",
+      "id": "computer",
+      "kind": "image",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "status": "passed"
+    },
+    {
+      "dimensionPass": true,
+      "edge": {
+        "bottom": 0,
+        "edgePixels": 1020,
+        "edgeOpaquePixels": 0,
+        "edgeOpaqueRatio": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0
+      },
+      "edgePolicy": "required-transparent",
+      "expectedSize": {
+        "width": 256,
+        "height": 256
+      },
+      "file": "assets/scene/props/prop_task_board.png",
+      "group": "props",
+      "id": "task_board",
+      "kind": "image",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "status": "passed"
+    },
+    {
+      "dimensionPass": true,
+      "edge": {
+        "bottom": 0,
+        "edgePixels": 1020,
+        "edgeOpaquePixels": 0,
+        "edgeOpaqueRatio": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0
+      },
+      "edgePolicy": "required-transparent",
+      "expectedSize": {
+        "width": 256,
+        "height": 256
+      },
+      "file": "assets/scene/props/prop_server_cabinet.png",
+      "group": "props",
+      "id": "server_cabinet",
+      "kind": "image",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "status": "passed"
+    },
+    {
+      "dimensionPass": true,
+      "edge": {
+        "bottom": 0,
+        "edgePixels": 1020,
+        "edgeOpaquePixels": 0,
+        "edgeOpaqueRatio": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0
+      },
+      "edgePolicy": "required-transparent",
+      "expectedSize": {
+        "width": 256,
+        "height": 256
+      },
+      "file": "assets/scene/props/prop_terminal_station.png",
+      "group": "props",
+      "id": "terminal_station",
+      "kind": "image",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "status": "passed"
+    },
+    {
+      "dimensionPass": true,
+      "edge": {
+        "bottom": 0,
+        "edgePixels": 1020,
+        "edgeOpaquePixels": 0,
+        "edgeOpaqueRatio": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0
+      },
+      "edgePolicy": "required-transparent",
+      "expectedSize": {
+        "width": 256,
+        "height": 256
+      },
+      "file": "assets/scene/props/prop_archive_shelf.png",
+      "group": "props",
+      "id": "archive_shelf",
+      "kind": "image",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "status": "passed"
+    },
+    {
+      "dimensionPass": true,
+      "edge": {
+        "bottom": 0,
+        "edgePixels": 1020,
+        "edgeOpaquePixels": 0,
+        "edgeOpaqueRatio": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0
+      },
+      "edgePolicy": "required-transparent",
+      "expectedSize": {
+        "width": 256,
+        "height": 256
+      },
+      "file": "assets/scene/props/prop_checklist_table.png",
+      "group": "props",
+      "id": "checklist_table",
+      "kind": "image",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "status": "passed"
+    },
+    {
+      "dimensionPass": true,
+      "edge": {
+        "bottom": 0,
+        "edgePixels": 1020,
+        "edgeOpaquePixels": 0,
+        "edgeOpaqueRatio": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0
+      },
+      "edgePolicy": "required-transparent",
+      "expectedSize": {
+        "width": 256,
+        "height": 256
+      },
+      "file": "assets/scene/props/prop_alert_lamp.png",
+      "group": "props",
+      "id": "alert_lamp",
+      "kind": "image",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "status": "passed"
+    },
+    {
+      "dimensionPass": true,
+      "edge": {
+        "bottom": 0,
+        "edgePixels": 1020,
+        "edgeOpaquePixels": 0,
+        "edgeOpaqueRatio": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0
+      },
+      "edgePolicy": "required-transparent",
+      "expectedSize": {
+        "width": 256,
+        "height": 256
+      },
+      "file": "assets/scene/props/prop_waiting_chair.png",
+      "group": "props",
+      "id": "waiting_chair",
+      "kind": "image",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "status": "passed"
+    },
+    {
+      "dimensionPass": true,
+      "edge": {
+        "bottom": 0,
+        "edgePixels": 1020,
+        "edgeOpaquePixels": 0,
+        "edgeOpaqueRatio": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0
+      },
+      "edgePolicy": "required-transparent",
+      "expectedSize": {
+        "width": 256,
+        "height": 256
+      },
+      "file": "assets/scene/props/prop_process_counter_panel.png",
+      "group": "props",
+      "id": "process_counter_panel",
+      "kind": "image",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "status": "passed"
+    },
+    {
+      "dimensionPass": true,
+      "edge": {
+        "bottom": 0,
+        "edgePixels": 1020,
+        "edgeOpaquePixels": 0,
+        "edgeOpaqueRatio": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0
+      },
+      "edgePolicy": "required-transparent",
+      "file": "assets/characters/animal-agent-team/red-panda-manager/red-panda-manager_portrait.png",
+      "group": "portraits",
+      "id": "red-panda-manager",
+      "kind": "image",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "status": "passed"
+    },
+    {
+      "dimensionPass": true,
+      "edge": {
+        "bottom": 0,
+        "edgePixels": 1020,
+        "edgeOpaquePixels": 0,
+        "edgeOpaqueRatio": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0
+      },
+      "edgePolicy": "required-transparent",
+      "file": "assets/characters/animal-agent-team/frog-verifier/frog-verifier_portrait.png",
+      "group": "portraits",
+      "id": "frog-verifier",
+      "kind": "image",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "status": "passed"
+    },
+    {
+      "dimensionPass": true,
+      "edge": {
+        "bottom": 0,
+        "edgePixels": 1020,
+        "edgeOpaquePixels": 0,
+        "edgeOpaqueRatio": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0
+      },
+      "edgePolicy": "required-transparent",
+      "file": "assets/characters/animal-agent-team/beaver-builder/beaver-builder_portrait.png",
+      "group": "portraits",
+      "id": "beaver-builder",
+      "kind": "image",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "status": "passed"
+    },
+    {
+      "dimensionPass": true,
+      "edge": {
+        "bottom": 0,
+        "edgePixels": 1020,
+        "edgeOpaquePixels": 0,
+        "edgeOpaqueRatio": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0
+      },
+      "edgePolicy": "required-transparent",
+      "file": "assets/characters/animal-agent-team/penguin-runner/penguin-runner_portrait.png",
+      "group": "portraits",
+      "id": "penguin-runner",
+      "kind": "image",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "status": "passed"
+    },
+    {
+      "dimensionPass": true,
+      "edge": {
+        "bottom": 0,
+        "edgePixels": 1020,
+        "edgeOpaquePixels": 0,
+        "edgeOpaqueRatio": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0
+      },
+      "edgePolicy": "required-transparent",
+      "file": "assets/characters/animal-agent-team/otter-ops/otter-ops_portrait.png",
+      "group": "portraits",
+      "id": "otter-ops",
+      "kind": "image",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "status": "passed"
+    },
+    {
+      "dimensionPass": true,
+      "edge": {
+        "bottom": 0,
+        "edgePixels": 1020,
+        "edgeOpaquePixels": 0,
+        "edgeOpaqueRatio": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0
+      },
+      "edgePolicy": "required-transparent",
+      "file": "assets/characters/animal-agent-team/owl-planner/owl-planner_portrait.png",
+      "group": "portraits",
+      "id": "owl-planner",
+      "kind": "image",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "status": "passed"
+    },
+    {
+      "dimensionPass": true,
+      "edge": {
+        "bottom": 0,
+        "edgePixels": 1020,
+        "edgeOpaquePixels": 0,
+        "edgeOpaqueRatio": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0
+      },
+      "edgePolicy": "required-transparent",
+      "file": "assets/characters/animal-agent-team/rabbit-timer/rabbit-timer_portrait.png",
+      "group": "portraits",
+      "id": "rabbit-timer",
+      "kind": "image",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "status": "passed"
+    },
+    {
+      "dimensionPass": true,
+      "edge": {
+        "bottom": 0,
+        "edgePixels": 1020,
+        "edgeOpaquePixels": 0,
+        "edgeOpaqueRatio": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0
+      },
+      "edgePolicy": "required-transparent",
+      "file": "assets/characters/animal-agent-team/turtle-archivist/turtle-archivist_portrait.png",
+      "group": "portraits",
+      "id": "turtle-archivist",
+      "kind": "image",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "status": "passed"
+    },
+    {
+      "dimensionPass": true,
+      "edge": {
+        "bottom": 0,
+        "edgePixels": 1020,
+        "edgeOpaquePixels": 0,
+        "edgeOpaqueRatio": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0
+      },
+      "edgePolicy": "required-transparent",
+      "file": "assets/characters/kawaii-cat-team/white-bow-cat-pm/white-bow-cat-pm_portrait.png",
+      "group": "portraits",
+      "id": "white-bow-cat-pm",
+      "kind": "image",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "status": "passed"
+    },
+    {
+      "dimensionPass": true,
+      "edge": {
+        "bottom": 0,
+        "edgePixels": 1020,
+        "edgeOpaquePixels": 0,
+        "edgeOpaqueRatio": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0
+      },
+      "edgePolicy": "required-transparent",
+      "file": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_portrait.png",
+      "group": "portraits",
+      "id": "black-fur-cat-ops",
+      "kind": "image",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "status": "passed"
+    },
+    {
+      "dimensionPass": true,
+      "edge": {
+        "bottom": 0,
+        "edgePixels": 1020,
+        "edgeOpaquePixels": 0,
+        "edgeOpaqueRatio": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0
+      },
+      "edgePolicy": "required-transparent",
+      "file": "assets/characters/kawaii-cat-team/tea-cat-engineer/tea-cat-engineer_portrait.png",
+      "group": "portraits",
+      "id": "tea-cat-engineer",
+      "kind": "image",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "status": "passed"
+    },
+    {
+      "dimensionPass": true,
+      "edge": {
+        "bottom": 0,
+        "edgePixels": 1020,
+        "edgeOpaquePixels": 0,
+        "edgeOpaqueRatio": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0
+      },
+      "edgePolicy": "required-transparent",
+      "file": "assets/characters/kawaii-cat-team/china-style-cat-planner/china-style-cat-planner_portrait.png",
+      "group": "portraits",
+      "id": "china-style-cat-planner",
+      "kind": "image",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "status": "passed"
+    },
+    {
+      "dimensionPass": true,
+      "edge": {
+        "bottom": 0,
+        "edgePixels": 1020,
+        "edgeOpaquePixels": 0,
+        "edgeOpaqueRatio": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0
+      },
+      "edgePolicy": "required-transparent",
+      "file": "assets/characters/kawaii-cat-team/japan-style-cat-verifier/japan-style-cat-verifier_portrait.png",
+      "group": "portraits",
+      "id": "japan-style-cat-verifier",
+      "kind": "image",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "status": "passed"
+    },
+    {
+      "dimensionPass": true,
+      "edge": {
+        "bottom": 0,
+        "edgePixels": 764,
+        "edgeOpaquePixels": 0,
+        "edgeOpaqueRatio": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0
+      },
+      "edgePolicy": "required-transparent",
+      "file": "assets/characters/kawaii-cat-team/mini-cat-subagent/mini-cat-subagent_portrait.png",
+      "group": "portraits",
+      "id": "mini-cat-subagent",
+      "kind": "image",
+      "size": {
+        "width": 192,
+        "height": 192
+      },
+      "status": "passed"
+    },
+    {
+      "actions": [
+        "idle",
+        "walk_down",
+        "walk_up",
+        "walk_left",
+        "walk_right",
+        "planning",
+        "working",
+        "verifying",
+        "blocked",
+        "done"
+      ],
+      "dimensionPass": true,
+      "edgePolicy": "required-transparent-frame",
+      "expectedSize": {
+        "height": 2560,
+        "width": 1024
+      },
+      "file": "assets/characters/animal-agent-team/red-panda-manager/red-panda-manager_mvp_proxy_spritesheet.png",
+      "frameChecks": [
+        {
+          "action": "idle",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "idle",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "idle",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "idle",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "walk_down",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "walk_down",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "walk_down",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "walk_down",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "walk_up",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "walk_up",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "walk_up",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "walk_up",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "walk_left",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "walk_left",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "walk_left",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "walk_left",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "walk_right",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "walk_right",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "walk_right",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "walk_right",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "planning",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "planning",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "planning",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "planning",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "working",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "working",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "working",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "working",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "verifying",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "verifying",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "verifying",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "verifying",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "blocked",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "blocked",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "blocked",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "blocked",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "done",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "done",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "done",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "done",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        }
+      ],
+      "frameCount": 40,
+      "frameHeight": 256,
+      "frameWidth": 256,
+      "group": "mvp_proxy_sheets",
+      "id": "red-panda-manager",
+      "kind": "spritesheet",
+      "maxFrameEdgeOpaquePixels": 0,
+      "size": {
+        "width": 1024,
+        "height": 2560
+      },
+      "status": "passed"
+    },
+    {
+      "actions": [
+        "idle",
+        "walk_down",
+        "walk_up",
+        "walk_left",
+        "walk_right",
+        "planning",
+        "working",
+        "verifying",
+        "blocked",
+        "done"
+      ],
+      "dimensionPass": true,
+      "edgePolicy": "required-transparent-frame",
+      "expectedSize": {
+        "height": 2560,
+        "width": 1024
+      },
+      "file": "assets/characters/animal-agent-team/frog-verifier/frog-verifier_mvp_proxy_spritesheet.png",
+      "frameChecks": [
+        {
+          "action": "idle",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "idle",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "idle",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "idle",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "walk_down",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "walk_down",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "walk_down",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "walk_down",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "walk_up",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "walk_up",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "walk_up",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "walk_up",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "walk_left",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "walk_left",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "walk_left",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "walk_left",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "walk_right",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "walk_right",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "walk_right",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "walk_right",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "planning",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "planning",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "planning",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "planning",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "working",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "working",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "working",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "working",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "verifying",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "verifying",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "verifying",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "verifying",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "blocked",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "blocked",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "blocked",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "blocked",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "done",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "done",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "done",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "done",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        }
+      ],
+      "frameCount": 40,
+      "frameHeight": 256,
+      "frameWidth": 256,
+      "group": "mvp_proxy_sheets",
+      "id": "frog-verifier",
+      "kind": "spritesheet",
+      "maxFrameEdgeOpaquePixels": 0,
+      "size": {
+        "width": 1024,
+        "height": 2560
+      },
+      "status": "passed"
+    },
+    {
+      "actions": [
+        "idle",
+        "walk_down",
+        "walk_up",
+        "walk_left",
+        "walk_right",
+        "planning",
+        "working",
+        "verifying",
+        "blocked",
+        "done"
+      ],
+      "dimensionPass": true,
+      "edgePolicy": "required-transparent-frame",
+      "expectedSize": {
+        "height": 2560,
+        "width": 1024
+      },
+      "file": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_mvp_proxy_spritesheet.png",
+      "frameChecks": [
+        {
+          "action": "idle",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "idle",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "idle",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "idle",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "walk_down",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "walk_down",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "walk_down",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "walk_down",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "walk_up",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "walk_up",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "walk_up",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "walk_up",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "walk_left",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "walk_left",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "walk_left",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "walk_left",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "walk_right",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "walk_right",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "walk_right",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "walk_right",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "planning",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "planning",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "planning",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "planning",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "working",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "working",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "working",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "working",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "verifying",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "verifying",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "verifying",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "verifying",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "blocked",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "blocked",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "blocked",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "blocked",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "done",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "done",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "done",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "done",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        }
+      ],
+      "frameCount": 40,
+      "frameHeight": 256,
+      "frameWidth": 256,
+      "group": "mvp_proxy_sheets",
+      "id": "black-fur-cat-ops",
+      "kind": "spritesheet",
+      "maxFrameEdgeOpaquePixels": 0,
+      "size": {
+        "width": 1024,
+        "height": 2560
+      },
+      "status": "passed"
+    },
+    {
+      "actions": [
+        "idle",
+        "walk_down",
+        "walk_up",
+        "walk_left",
+        "walk_right",
+        "planning",
+        "working",
+        "verifying",
+        "blocked",
+        "done"
+      ],
+      "dimensionPass": true,
+      "edgePolicy": "required-transparent-frame",
+      "expectedSize": {
+        "height": 2560,
+        "width": 1024
+      },
+      "file": "assets/characters/kawaii-cat-team/tea-cat-engineer/tea-cat-engineer_mvp_proxy_spritesheet.png",
+      "frameChecks": [
+        {
+          "action": "idle",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "idle",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "idle",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "idle",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "walk_down",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "walk_down",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "walk_down",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "walk_down",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "walk_up",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "walk_up",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "walk_up",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "walk_up",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "walk_left",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "walk_left",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "walk_left",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "walk_left",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "walk_right",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "walk_right",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "walk_right",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "walk_right",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "planning",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "planning",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "planning",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "planning",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "working",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "working",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "working",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "working",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "verifying",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "verifying",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "verifying",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "verifying",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "blocked",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "blocked",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "blocked",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "blocked",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "done",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "done",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "done",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "done",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        }
+      ],
+      "frameCount": 40,
+      "frameHeight": 256,
+      "frameWidth": 256,
+      "group": "mvp_proxy_sheets",
+      "id": "tea-cat-engineer",
+      "kind": "spritesheet",
+      "maxFrameEdgeOpaquePixels": 0,
+      "size": {
+        "width": 1024,
+        "height": 2560
+      },
+      "status": "passed"
+    },
+    {
+      "actions": [
+        "handoff",
+        "summon_subagent",
+        "merge_result"
+      ],
+      "dimensionPass": true,
+      "edgePolicy": "required-transparent-frame",
+      "expectedSize": {
+        "height": 768,
+        "width": 1024
+      },
+      "file": "assets/characters/kawaii-cat-team/white-bow-cat-pm/white-bow-cat-pm_advanced_spritesheet.png",
+      "frameChecks": [
+        {
+          "action": "handoff",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "handoff",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "handoff",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "handoff",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "summon_subagent",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "summon_subagent",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "summon_subagent",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "summon_subagent",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "merge_result",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "merge_result",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "merge_result",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "merge_result",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        }
+      ],
+      "frameCount": 12,
+      "frameHeight": 256,
+      "frameWidth": 256,
+      "group": "advanced_action_sheets",
+      "id": "white-bow-cat-pm",
+      "kind": "spritesheet",
+      "maxFrameEdgeOpaquePixels": 0,
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "status": "passed"
+    },
+    {
+      "actions": [
+        "handoff",
+        "summon_subagent",
+        "merge_result"
+      ],
+      "dimensionPass": true,
+      "edgePolicy": "required-transparent-frame",
+      "expectedSize": {
+        "height": 768,
+        "width": 1024
+      },
+      "file": "assets/characters/animal-agent-team/beaver-builder/beaver-builder_advanced_spritesheet.png",
+      "frameChecks": [
+        {
+          "action": "handoff",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "handoff",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "handoff",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "handoff",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "summon_subagent",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "summon_subagent",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "summon_subagent",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "summon_subagent",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "merge_result",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "merge_result",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "merge_result",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "merge_result",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        }
+      ],
+      "frameCount": 12,
+      "frameHeight": 256,
+      "frameWidth": 256,
+      "group": "advanced_action_sheets",
+      "id": "beaver-builder",
+      "kind": "spritesheet",
+      "maxFrameEdgeOpaquePixels": 0,
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "status": "passed"
+    },
+    {
+      "actions": [
+        "handoff",
+        "summon_subagent",
+        "merge_result"
+      ],
+      "dimensionPass": true,
+      "edgePolicy": "required-transparent-frame",
+      "expectedSize": {
+        "height": 768,
+        "width": 1024
+      },
+      "file": "assets/characters/animal-agent-team/red-panda-manager/red-panda-manager_advanced_spritesheet.png",
+      "frameChecks": [
+        {
+          "action": "handoff",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "handoff",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "handoff",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "handoff",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "summon_subagent",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "summon_subagent",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "summon_subagent",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "summon_subagent",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "merge_result",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "merge_result",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "merge_result",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "merge_result",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        }
+      ],
+      "frameCount": 12,
+      "frameHeight": 256,
+      "frameWidth": 256,
+      "group": "advanced_action_sheets",
+      "id": "red-panda-manager",
+      "kind": "spritesheet",
+      "maxFrameEdgeOpaquePixels": 0,
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "status": "passed"
+    },
+    {
+      "actions": [
+        "handoff",
+        "summon_subagent",
+        "merge_result"
+      ],
+      "dimensionPass": true,
+      "edgePolicy": "required-transparent-frame",
+      "expectedSize": {
+        "height": 768,
+        "width": 1024
+      },
+      "file": "assets/characters/animal-agent-team/frog-verifier/frog-verifier_advanced_spritesheet.png",
+      "frameChecks": [
+        {
+          "action": "handoff",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "handoff",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "handoff",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "handoff",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "summon_subagent",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "summon_subagent",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "summon_subagent",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "summon_subagent",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "merge_result",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "merge_result",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "merge_result",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "merge_result",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        }
+      ],
+      "frameCount": 12,
+      "frameHeight": 256,
+      "frameWidth": 256,
+      "group": "advanced_action_sheets",
+      "id": "frog-verifier",
+      "kind": "spritesheet",
+      "maxFrameEdgeOpaquePixels": 0,
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "status": "passed"
+    },
+    {
+      "actions": [
+        "handoff",
+        "summon_subagent",
+        "merge_result"
+      ],
+      "dimensionPass": true,
+      "edgePolicy": "required-transparent-frame",
+      "expectedSize": {
+        "height": 768,
+        "width": 1024
+      },
+      "file": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_advanced_spritesheet.png",
+      "frameChecks": [
+        {
+          "action": "handoff",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "handoff",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "handoff",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "handoff",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "summon_subagent",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "summon_subagent",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "summon_subagent",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "summon_subagent",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "merge_result",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "merge_result",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "merge_result",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "merge_result",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        }
+      ],
+      "frameCount": 12,
+      "frameHeight": 256,
+      "frameWidth": 256,
+      "group": "advanced_action_sheets",
+      "id": "black-fur-cat-ops",
+      "kind": "spritesheet",
+      "maxFrameEdgeOpaquePixels": 0,
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "status": "passed"
+    },
+    {
+      "actions": [
+        "handoff",
+        "summon_subagent",
+        "merge_result"
+      ],
+      "dimensionPass": true,
+      "edgePolicy": "required-transparent-frame",
+      "expectedSize": {
+        "height": 768,
+        "width": 1024
+      },
+      "file": "assets/characters/kawaii-cat-team/tea-cat-engineer/tea-cat-engineer_advanced_spritesheet.png",
+      "frameChecks": [
+        {
+          "action": "handoff",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "handoff",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "handoff",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "handoff",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "summon_subagent",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "summon_subagent",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "summon_subagent",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "summon_subagent",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        },
+        {
+          "action": "merge_result",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 0,
+          "passed": true
+        },
+        {
+          "action": "merge_result",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 1,
+          "passed": true
+        },
+        {
+          "action": "merge_result",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 2,
+          "passed": true
+        },
+        {
+          "action": "merge_result",
+          "edge": {
+            "bottom": 0,
+            "edgePixels": 1020,
+            "edgeOpaquePixels": 0,
+            "edgeOpaqueRatio": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "frame": 3,
+          "passed": true
+        }
+      ],
+      "frameCount": 12,
+      "frameHeight": 256,
+      "frameWidth": 256,
+      "group": "advanced_action_sheets",
+      "id": "tea-cat-engineer",
+      "kind": "spritesheet",
+      "maxFrameEdgeOpaquePixels": 0,
+      "size": {
+        "width": 1024,
+        "height": 768
+      },
+      "status": "passed"
+    }
+  ],
+  "summary": {
+    "byGroup": {
+      "advanced_action_sheets": {
+        "failed": 0,
+        "passed": 6,
+        "reported": 0,
+        "total": 6
+      },
+      "mvp_proxy_sheets": {
+        "failed": 0,
+        "passed": 4,
+        "reported": 0,
+        "total": 4
+      },
+      "portraits": {
+        "failed": 0,
+        "passed": 14,
+        "reported": 0,
+        "total": 14
+      },
+      "props": {
+        "failed": 0,
+        "passed": 10,
+        "reported": 0,
+        "total": 10
+      },
+      "tiles": {
+        "failed": 0,
+        "passed": 0,
+        "reported": 7,
+        "total": 7
+      }
+    },
+    "failed": 0,
+    "passed": 34,
+    "reported": 7,
+    "total": 41
+  }
+}

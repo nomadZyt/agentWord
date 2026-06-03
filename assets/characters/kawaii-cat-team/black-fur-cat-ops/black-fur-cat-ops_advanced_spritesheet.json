@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "characterId": "black-fur-cat-ops",
+  "team": "kawaii-cat-team",
+  "source": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_advanced_spritesheet.png",
+  "frameWidth": 256,
+  "frameHeight": 256,
+  "columns": 4,
+  "rows": 3,
+  "anchor": {
+    "x": 0.5,
+    "y": 1
+  },
+  "status": "playable-proxy",
+  "actions": [
+    {
+      "id": "handoff",
+      "row": 0,
+      "frames": 4,
+      "fps": 7,
+      "source": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_handoff_advanced_proxy.png"
+    },
+    {
+      "id": "summon_subagent",
+      "row": 1,
+      "frames": 4,
+      "fps": 7,
+      "source": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_summon_subagent_advanced_proxy.png"
+    },
+    {
+      "id": "merge_result",
+      "row": 2,
+      "frames": 4,
+      "fps": 7,
+      "source": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_merge_result_advanced_proxy.png"
+    }
+  ],
+  "notes": [
+    "Generated from the D-stage portrait art with deterministic pose offsets and state props.",
+    "Suitable for PixiJS playback and prototype state mapping.",
+    "Future production pass can replace individual action rows without changing the JSON shape."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "characterId": "beaver-builder",
+  "team": "animal-agent-team",
+  "action": "walk_right",
+  "source": "assets/characters/animal-agent-team/beaver-builder/beaver-builder_walk_right_refined.png",
+  "frameWidth": 256,
+  "frameHeight": 256,
+  "frames": 4,
+  "fps": 10,
+  "anchor": {
+    "x": 0.5,
+    "y": 1.0
+  },
+  "status": "validated-candidate",
+  "validationPreview": "assets/review/spritesheets/beaver-builder_walk_right_refined_row_96.png",
+  "notes": [
+    "Per-action 4-frame walk_right row generated on magenta chroma background.",
+    "Background removed with ImageMagick, content trimmed to a 4:1 row, and edge-contracted by 1px.",
+    "Right-facing walk keeps side profile, compact tools, and tail readable."
+  ]
+}

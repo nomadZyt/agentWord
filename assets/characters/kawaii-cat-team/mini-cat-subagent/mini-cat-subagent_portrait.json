@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "characterId": "mini-cat-subagent",
+  "label": "Mini Cat Subagent",
+  "team": "kawaii-cat-team",
+  "role": "task carrying and subagent support",
+  "file": "assets/characters/kawaii-cat-team/mini-cat-subagent/mini-cat-subagent_portrait.png",
+  "sourceAtlas": "assets/source/imagegen/d3_kawaii_cats_atlas.png",
+  "sourceCell": {
+    "columns": 3,
+    "rows": 2,
+    "column": 2,
+    "row": 1
+  },
+  "status": "validated-candidate",
+  "notes": [
+    "Generated from imagegen atlas and locally chroma-keyed to alpha PNG.",
+    "Portrait is intended for task cards, documentation, and spritesheet proxy source."
+  ]
+}

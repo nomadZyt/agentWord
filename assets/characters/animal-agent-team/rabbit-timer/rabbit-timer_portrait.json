@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "characterId": "rabbit-timer",
+  "label": "Rabbit Timer",
+  "team": "animal-agent-team",
+  "role": "waiting, scheduling, and reminders",
+  "file": "assets/characters/animal-agent-team/rabbit-timer/rabbit-timer_portrait.png",
+  "sourceAtlas": "assets/source/imagegen/d2_animal_agents_atlas.png",
+  "sourceCell": {
+    "columns": 4,
+    "rows": 2,
+    "column": 2,
+    "row": 1
+  },
+  "status": "validated-candidate",
+  "notes": [
+    "Generated from imagegen atlas and locally chroma-keyed to alpha PNG.",
+    "Portrait is intended for task cards, documentation, and spritesheet proxy source."
+  ]
+}

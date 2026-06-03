@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "rooms": [
+    {
+      "id": "room_queue",
+      "displayName": "入口队列",
+      "taskStatus": "queued",
+      "icon": "task_new",
+      "accentColor": "#d8b16a",
+      "defaultAgentAction": "idle",
+      "description": "新任务进入和等待分配的位置。"
+    },
+    {
+      "id": "room_planning",
+      "displayName": "规划室",
+      "taskStatus": "planning",
+      "icon": "task_split",
+      "accentColor": "#7ca66a",
+      "defaultAgentAction": "planning",
+      "description": "任务拆解、计划生成和 subagent 分派的位置。"
+    },
+    {
+      "id": "room_execution",
+      "displayName": "执行室",
+      "taskStatus": "running",
+      "icon": "task_running",
+      "accentColor": "#5d8fc7",
+      "defaultAgentAction": "working",
+      "description": "执行代码、命令、文件处理和生成工作的核心区域。"
+    },
+    {
+      "id": "room_verification",
+      "displayName": "验证室",
+      "taskStatus": "verifying",
+      "icon": "task_test",
+      "accentColor": "#58a976",
+      "defaultAgentAction": "verifying",
+      "description": "测试、检查、比对和结果确认的位置。"
+    },
+    {
+      "id": "room_blocked",
+      "displayName": "阻塞处理室",
+      "taskStatus": "blocked",
+      "icon": "task_blocked",
+      "accentColor": "#ef7b45",
+      "defaultAgentAction": "blocked",
+      "description": "等待用户、权限、依赖、网络或外部输入的位置。"
+    },
+    {
+      "id": "room_archive",
+      "displayName": "归档室",
+      "taskStatus": "done",
+      "icon": "task_archive",
+      "accentColor": "#b48a4c",
+      "defaultAgentAction": "done",
+      "description": "完成任务、保存结果和沉淀记录的位置。"
+    },
+    {
+      "id": "rest_area",
+      "displayName": "休息区",
+      "taskStatus": "idle",
+      "icon": "status_idle",
+      "accentColor": "#8bbf7a",
+      "defaultAgentAction": "idle",
+      "description": "空闲 agent 的默认停留区。"
+    },
+    {
+      "id": "monitor_wall",
+      "displayName": "监控墙",
+      "taskStatus": "monitoring",
+      "icon": "status_real_session",
+      "accentColor": "#6c91bd",
+      "defaultAgentAction": "idle",
+      "description": "展示本机 Codex / Claude 进程级会话数量。"
+    },
+    {
+      "id": "subagent_nest",
+      "displayName": "Subagent 工位",
+      "taskStatus": "subagent",
+      "icon": "bubble_subagent",
+      "accentColor": "#c6a1d8",
+      "defaultAgentAction": "carry_task",
+      "description": "mini subagent 生成、等待、搬运任务和回收结果的位置。"
+    },
+    {
+      "id": "garden_path",
+      "displayName": "主路径",
+      "taskStatus": "transit",
+      "icon": "status_running",
+      "accentColor": "#a7b86a",
+      "defaultAgentAction": "walk_down",
+      "description": "agent 在房间之间移动的主要路径。"
+    }
+  ],
+  "statusColumns": [
+    { "id": "queued", "displayName": "队列中", "roomId": "room_queue" },
+    { "id": "planning", "displayName": "规划中", "roomId": "room_planning" },
+    { "id": "running", "displayName": "执行中", "roomId": "room_execution" },
+    { "id": "verifying", "displayName": "验证中", "roomId": "room_verification" },
+    { "id": "blocked", "displayName": "阻塞", "roomId": "room_blocked" },
+    { "id": "done", "displayName": "完成", "roomId": "room_archive" }
+  ]
+}

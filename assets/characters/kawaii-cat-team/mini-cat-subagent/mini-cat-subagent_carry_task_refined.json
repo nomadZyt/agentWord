@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "characterId": "mini-cat-subagent",
+  "team": "kawaii-cat-team",
+  "action": "carry_task",
+  "source": "assets/characters/kawaii-cat-team/mini-cat-subagent/mini-cat-subagent_carry_task_refined.png",
+  "frameWidth": 256,
+  "frameHeight": 256,
+  "frames": 4,
+  "fps": 8,
+  "anchor": {
+    "x": 0.5,
+    "y": 1.0
+  },
+  "status": "validated-candidate",
+  "validationPreview": "assets/review/spritesheets/mini-cat-subagent_carry_task_refined_row_96.png",
+  "notes": [
+    "Per-action 4-frame carry_task row generated on magenta chroma background.",
+    "Frames were cropped individually, background-removed with ImageMagick, edge-contracted by 1px, resized to max 192x192, and gravity-south extended to 256x256.",
+    "Carry task gesture uses blank task cards and a small pouch with no readable text or logos."
+  ]
+}

@@ -1,0 +1,1187 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-31",
+  "sourceMode": "built-in imagegen atlas plus local ImageMagick slicing",
+  "tiles": [
+    {
+      "id": "grass",
+      "file": "assets/scene/tiles/tile_grass.png",
+      "size": {
+        "width": 128,
+        "height": 128
+      },
+      "sourceAtlas": "assets/source/imagegen/d1_environment_atlas.png",
+      "sourceCell": {
+        "columns": 4,
+        "rows": 4,
+        "column": 0,
+        "row": 0
+      }
+    },
+    {
+      "id": "wood_floor",
+      "file": "assets/scene/tiles/tile_wood_floor.png",
+      "size": {
+        "width": 128,
+        "height": 128
+      },
+      "sourceAtlas": "assets/source/imagegen/d1_environment_atlas.png",
+      "sourceCell": {
+        "columns": 4,
+        "rows": 4,
+        "column": 1,
+        "row": 0
+      }
+    },
+    {
+      "id": "stone_path",
+      "file": "assets/scene/tiles/tile_stone_path.png",
+      "size": {
+        "width": 128,
+        "height": 128
+      },
+      "sourceAtlas": "assets/source/imagegen/d1_environment_atlas.png",
+      "sourceCell": {
+        "columns": 4,
+        "rows": 4,
+        "column": 2,
+        "row": 0
+      }
+    },
+    {
+      "id": "wall_round",
+      "file": "assets/scene/tiles/tile_wall_round.png",
+      "size": {
+        "width": 128,
+        "height": 128
+      },
+      "sourceAtlas": "assets/source/imagegen/d1_environment_atlas.png",
+      "sourceCell": {
+        "columns": 4,
+        "rows": 4,
+        "column": 3,
+        "row": 0
+      }
+    },
+    {
+      "id": "door_arch",
+      "file": "assets/scene/tiles/tile_door_arch.png",
+      "size": {
+        "width": 128,
+        "height": 128
+      },
+      "sourceAtlas": "assets/source/imagegen/d1_environment_atlas.png",
+      "sourceCell": {
+        "columns": 4,
+        "rows": 4,
+        "column": 0,
+        "row": 1
+      }
+    },
+    {
+      "id": "window",
+      "file": "assets/scene/tiles/tile_window.png",
+      "size": {
+        "width": 128,
+        "height": 128
+      },
+      "sourceAtlas": "assets/source/imagegen/d1_environment_atlas.png",
+      "sourceCell": {
+        "columns": 4,
+        "rows": 4,
+        "column": 1,
+        "row": 1
+      }
+    },
+    {
+      "id": "fence",
+      "file": "assets/scene/tiles/tile_fence.png",
+      "size": {
+        "width": 128,
+        "height": 128
+      },
+      "sourceAtlas": "assets/source/imagegen/d1_environment_atlas.png",
+      "sourceCell": {
+        "columns": 4,
+        "rows": 4,
+        "column": 2,
+        "row": 1
+      }
+    }
+  ],
+  "props": [
+    {
+      "id": "desk_single",
+      "file": "assets/scene/props/prop_desk_single.png",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "sourceAtlas": "assets/source/imagegen/d1_environment_atlas.png",
+      "sourceCell": {
+        "columns": 4,
+        "rows": 4,
+        "column": 3,
+        "row": 1
+      }
+    },
+    {
+      "id": "computer",
+      "file": "assets/scene/props/prop_computer.png",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "sourceAtlas": "assets/source/imagegen/d1_environment_atlas.png",
+      "sourceCell": {
+        "columns": 4,
+        "rows": 4,
+        "column": 0,
+        "row": 2
+      }
+    },
+    {
+      "id": "task_board",
+      "file": "assets/scene/props/prop_task_board.png",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "sourceAtlas": "assets/source/imagegen/d1_environment_atlas.png",
+      "sourceCell": {
+        "columns": 4,
+        "rows": 4,
+        "column": 1,
+        "row": 2
+      }
+    },
+    {
+      "id": "server_cabinet",
+      "file": "assets/scene/props/prop_server_cabinet.png",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "sourceAtlas": "assets/source/imagegen/d1_environment_atlas.png",
+      "sourceCell": {
+        "columns": 4,
+        "rows": 4,
+        "column": 2,
+        "row": 2
+      }
+    },
+    {
+      "id": "terminal_station",
+      "file": "assets/scene/props/prop_terminal_station.png",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "sourceAtlas": "assets/source/imagegen/d1_props_atlas.png",
+      "sourceCell": {
+        "columns": 3,
+        "rows": 2,
+        "column": 0,
+        "row": 0
+      }
+    },
+    {
+      "id": "archive_shelf",
+      "file": "assets/scene/props/prop_archive_shelf.png",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "sourceAtlas": "assets/source/imagegen/d1_props_atlas.png",
+      "sourceCell": {
+        "columns": 3,
+        "rows": 2,
+        "column": 1,
+        "row": 0
+      }
+    },
+    {
+      "id": "checklist_table",
+      "file": "assets/scene/props/prop_checklist_table.png",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "sourceAtlas": "assets/source/imagegen/d1_props_atlas.png",
+      "sourceCell": {
+        "columns": 3,
+        "rows": 2,
+        "column": 2,
+        "row": 0
+      }
+    },
+    {
+      "id": "alert_lamp",
+      "file": "assets/scene/props/prop_alert_lamp.png",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "sourceAtlas": "assets/source/imagegen/d1_props_atlas.png",
+      "sourceCell": {
+        "columns": 3,
+        "rows": 2,
+        "column": 0,
+        "row": 1
+      }
+    },
+    {
+      "id": "waiting_chair",
+      "file": "assets/scene/props/prop_waiting_chair.png",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "sourceAtlas": "assets/source/imagegen/d1_props_atlas.png",
+      "sourceCell": {
+        "columns": 3,
+        "rows": 2,
+        "column": 1,
+        "row": 1
+      }
+    },
+    {
+      "id": "process_counter_panel",
+      "file": "assets/scene/props/prop_process_counter_panel.png",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "sourceAtlas": "assets/source/imagegen/d1_props_atlas.png",
+      "sourceCell": {
+        "columns": 3,
+        "rows": 2,
+        "column": 2,
+        "row": 1
+      }
+    }
+  ],
+  "portraits": [
+    {
+      "schemaVersion": 1,
+      "characterId": "red-panda-manager",
+      "label": "Red Panda Manager",
+      "team": "animal-agent-team",
+      "role": "task planning and dispatch",
+      "file": "assets/characters/animal-agent-team/red-panda-manager/red-panda-manager_portrait.png",
+      "sourceAtlas": "assets/source/imagegen/d2_animal_agents_atlas.png",
+      "sourceCell": {
+        "columns": 4,
+        "rows": 2,
+        "column": 0,
+        "row": 0
+      },
+      "status": "validated-candidate",
+      "notes": [
+        "Generated from imagegen atlas and locally chroma-keyed to alpha PNG.",
+        "Portrait is intended for task cards, documentation, and spritesheet proxy source."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "characterId": "frog-verifier",
+      "label": "Frog Verifier",
+      "team": "animal-agent-team",
+      "role": "test and verification",
+      "file": "assets/characters/animal-agent-team/frog-verifier/frog-verifier_portrait.png",
+      "sourceAtlas": "assets/source/imagegen/d2_animal_agents_atlas.png",
+      "sourceCell": {
+        "columns": 4,
+        "rows": 2,
+        "column": 1,
+        "row": 0
+      },
+      "status": "validated-candidate",
+      "notes": [
+        "Generated from imagegen atlas and locally chroma-keyed to alpha PNG.",
+        "Portrait is intended for task cards, documentation, and spritesheet proxy source."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "characterId": "beaver-builder",
+      "label": "Beaver Builder",
+      "team": "animal-agent-team",
+      "role": "build and code execution",
+      "file": "assets/characters/animal-agent-team/beaver-builder/beaver-builder_portrait.png",
+      "sourceAtlas": "assets/source/imagegen/d2_animal_agents_atlas.png",
+      "sourceCell": {
+        "columns": 4,
+        "rows": 2,
+        "column": 2,
+        "row": 0
+      },
+      "status": "validated-candidate",
+      "notes": [
+        "Generated from imagegen atlas and locally chroma-keyed to alpha PNG.",
+        "Portrait is intended for task cards, documentation, and spritesheet proxy source."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "characterId": "penguin-runner",
+      "label": "Penguin Runner",
+      "team": "animal-agent-team",
+      "role": "task transfer and launch",
+      "file": "assets/characters/animal-agent-team/penguin-runner/penguin-runner_portrait.png",
+      "sourceAtlas": "assets/source/imagegen/d2_animal_agents_atlas.png",
+      "sourceCell": {
+        "columns": 4,
+        "rows": 2,
+        "column": 3,
+        "row": 0
+      },
+      "status": "validated-candidate",
+      "notes": [
+        "Generated from imagegen atlas and locally chroma-keyed to alpha PNG.",
+        "Portrait is intended for task cards, documentation, and spritesheet proxy source."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "characterId": "otter-ops",
+      "label": "Otter Ops",
+      "team": "animal-agent-team",
+      "role": "operations and blocked task recovery",
+      "file": "assets/characters/animal-agent-team/otter-ops/otter-ops_portrait.png",
+      "sourceAtlas": "assets/source/imagegen/d2_animal_agents_atlas.png",
+      "sourceCell": {
+        "columns": 4,
+        "rows": 2,
+        "column": 0,
+        "row": 1
+      },
+      "status": "validated-candidate",
+      "notes": [
+        "Generated from imagegen atlas and locally chroma-keyed to alpha PNG.",
+        "Portrait is intended for task cards, documentation, and spritesheet proxy source."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "characterId": "owl-planner",
+      "label": "Owl Planner",
+      "team": "animal-agent-team",
+      "role": "architecture planning",
+      "file": "assets/characters/animal-agent-team/owl-planner/owl-planner_portrait.png",
+      "sourceAtlas": "assets/source/imagegen/d2_animal_agents_atlas.png",
+      "sourceCell": {
+        "columns": 4,
+        "rows": 2,
+        "column": 1,
+        "row": 1
+      },
+      "status": "validated-candidate",
+      "notes": [
+        "Generated from imagegen atlas and locally chroma-keyed to alpha PNG.",
+        "Portrait is intended for task cards, documentation, and spritesheet proxy source."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "characterId": "rabbit-timer",
+      "label": "Rabbit Timer",
+      "team": "animal-agent-team",
+      "role": "waiting, scheduling, and reminders",
+      "file": "assets/characters/animal-agent-team/rabbit-timer/rabbit-timer_portrait.png",
+      "sourceAtlas": "assets/source/imagegen/d2_animal_agents_atlas.png",
+      "sourceCell": {
+        "columns": 4,
+        "rows": 2,
+        "column": 2,
+        "row": 1
+      },
+      "status": "validated-candidate",
+      "notes": [
+        "Generated from imagegen atlas and locally chroma-keyed to alpha PNG.",
+        "Portrait is intended for task cards, documentation, and spritesheet proxy source."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "characterId": "turtle-archivist",
+      "label": "Turtle Archivist",
+      "team": "animal-agent-team",
+      "role": "archive and knowledge capture",
+      "file": "assets/characters/animal-agent-team/turtle-archivist/turtle-archivist_portrait.png",
+      "sourceAtlas": "assets/source/imagegen/d2_animal_agents_atlas.png",
+      "sourceCell": {
+        "columns": 4,
+        "rows": 2,
+        "column": 3,
+        "row": 1
+      },
+      "status": "validated-candidate",
+      "notes": [
+        "Generated from imagegen atlas and locally chroma-keyed to alpha PNG.",
+        "Portrait is intended for task cards, documentation, and spritesheet proxy source."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "characterId": "white-bow-cat-pm",
+      "label": "White Bow Cat PM",
+      "team": "kawaii-cat-team",
+      "role": "project management and planning",
+      "file": "assets/characters/kawaii-cat-team/white-bow-cat-pm/white-bow-cat-pm_portrait.png",
+      "sourceAtlas": "assets/source/imagegen/d3_kawaii_cats_atlas.png",
+      "sourceCell": {
+        "columns": 3,
+        "rows": 2,
+        "column": 0,
+        "row": 0
+      },
+      "status": "validated-candidate",
+      "notes": [
+        "Generated from imagegen atlas and locally chroma-keyed to alpha PNG.",
+        "Portrait is intended for task cards, documentation, and spritesheet proxy source."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "characterId": "black-fur-cat-ops",
+      "label": "Black Fur Cat Ops",
+      "team": "kawaii-cat-team",
+      "role": "operations, alerting, and monitoring",
+      "file": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_portrait.png",
+      "sourceAtlas": "assets/source/imagegen/d3_kawaii_cats_atlas.png",
+      "sourceCell": {
+        "columns": 3,
+        "rows": 2,
+        "column": 1,
+        "row": 0
+      },
+      "status": "validated-candidate",
+      "notes": [
+        "Generated from imagegen atlas and locally chroma-keyed to alpha PNG.",
+        "Portrait is intended for task cards, documentation, and spritesheet proxy source."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "characterId": "tea-cat-engineer",
+      "label": "Tea Cat Engineer",
+      "team": "kawaii-cat-team",
+      "role": "engineering and command execution",
+      "file": "assets/characters/kawaii-cat-team/tea-cat-engineer/tea-cat-engineer_portrait.png",
+      "sourceAtlas": "assets/source/imagegen/d3_kawaii_cats_atlas.png",
+      "sourceCell": {
+        "columns": 3,
+        "rows": 2,
+        "column": 2,
+        "row": 0
+      },
+      "status": "validated-candidate",
+      "notes": [
+        "Generated from imagegen atlas and locally chroma-keyed to alpha PNG.",
+        "Portrait is intended for task cards, documentation, and spritesheet proxy source."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "characterId": "china-style-cat-planner",
+      "label": "China Style Cat Planner",
+      "team": "kawaii-cat-team",
+      "role": "strategy and requirement breakdown",
+      "file": "assets/characters/kawaii-cat-team/china-style-cat-planner/china-style-cat-planner_portrait.png",
+      "sourceAtlas": "assets/source/imagegen/d3_kawaii_cats_atlas.png",
+      "sourceCell": {
+        "columns": 3,
+        "rows": 2,
+        "column": 0,
+        "row": 1
+      },
+      "status": "validated-candidate",
+      "notes": [
+        "Generated from imagegen atlas and locally chroma-keyed to alpha PNG.",
+        "Portrait is intended for task cards, documentation, and spritesheet proxy source."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "characterId": "japan-style-cat-verifier",
+      "label": "Japan Style Cat Verifier",
+      "team": "kawaii-cat-team",
+      "role": "acceptance and checklist verification",
+      "file": "assets/characters/kawaii-cat-team/japan-style-cat-verifier/japan-style-cat-verifier_portrait.png",
+      "sourceAtlas": "assets/source/imagegen/d3_kawaii_cats_atlas.png",
+      "sourceCell": {
+        "columns": 3,
+        "rows": 2,
+        "column": 1,
+        "row": 1
+      },
+      "status": "validated-candidate",
+      "notes": [
+        "Generated from imagegen atlas and locally chroma-keyed to alpha PNG.",
+        "Portrait is intended for task cards, documentation, and spritesheet proxy source."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "characterId": "mini-cat-subagent",
+      "label": "Mini Cat Subagent",
+      "team": "kawaii-cat-team",
+      "role": "task carrying and subagent support",
+      "file": "assets/characters/kawaii-cat-team/mini-cat-subagent/mini-cat-subagent_portrait.png",
+      "sourceAtlas": "assets/source/imagegen/d3_kawaii_cats_atlas.png",
+      "sourceCell": {
+        "columns": 3,
+        "rows": 2,
+        "column": 2,
+        "row": 1
+      },
+      "status": "validated-candidate",
+      "notes": [
+        "Generated from imagegen atlas and locally chroma-keyed to alpha PNG.",
+        "Portrait is intended for task cards, documentation, and spritesheet proxy source."
+      ]
+    }
+  ],
+  "playableProxyMvpSheets": [
+    {
+      "schemaVersion": 1,
+      "characterId": "red-panda-manager",
+      "team": "animal-agent-team",
+      "source": "assets/characters/animal-agent-team/red-panda-manager/red-panda-manager_mvp_proxy_spritesheet.png",
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "columns": 4,
+      "rows": 10,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "status": "playable-proxy",
+      "actions": [
+        {
+          "id": "idle",
+          "row": 0,
+          "frames": 4,
+          "fps": 5,
+          "source": "assets/characters/animal-agent-team/red-panda-manager/red-panda-manager_idle_proxy.png"
+        },
+        {
+          "id": "walk_down",
+          "row": 1,
+          "frames": 4,
+          "fps": 10,
+          "source": "assets/characters/animal-agent-team/red-panda-manager/red-panda-manager_walk_down_proxy.png"
+        },
+        {
+          "id": "walk_up",
+          "row": 2,
+          "frames": 4,
+          "fps": 10,
+          "source": "assets/characters/animal-agent-team/red-panda-manager/red-panda-manager_walk_up_proxy.png"
+        },
+        {
+          "id": "walk_left",
+          "row": 3,
+          "frames": 4,
+          "fps": 10,
+          "source": "assets/characters/animal-agent-team/red-panda-manager/red-panda-manager_walk_left_proxy.png"
+        },
+        {
+          "id": "walk_right",
+          "row": 4,
+          "frames": 4,
+          "fps": 10,
+          "source": "assets/characters/animal-agent-team/red-panda-manager/red-panda-manager_walk_right_proxy.png"
+        },
+        {
+          "id": "planning",
+          "row": 5,
+          "frames": 4,
+          "fps": 7,
+          "source": "assets/characters/animal-agent-team/red-panda-manager/red-panda-manager_planning_proxy.png"
+        },
+        {
+          "id": "working",
+          "row": 6,
+          "frames": 4,
+          "fps": 7,
+          "source": "assets/characters/animal-agent-team/red-panda-manager/red-panda-manager_working_proxy.png"
+        },
+        {
+          "id": "verifying",
+          "row": 7,
+          "frames": 4,
+          "fps": 7,
+          "source": "assets/characters/animal-agent-team/red-panda-manager/red-panda-manager_verifying_proxy.png"
+        },
+        {
+          "id": "blocked",
+          "row": 8,
+          "frames": 4,
+          "fps": 7,
+          "source": "assets/characters/animal-agent-team/red-panda-manager/red-panda-manager_blocked_proxy.png"
+        },
+        {
+          "id": "done",
+          "row": 9,
+          "frames": 4,
+          "fps": 7,
+          "source": "assets/characters/animal-agent-team/red-panda-manager/red-panda-manager_done_proxy.png"
+        }
+      ],
+      "notes": [
+        "Generated from the D-stage portrait art with deterministic pose offsets and state props.",
+        "Suitable for PixiJS playback and prototype state mapping.",
+        "Future production pass can replace individual action rows without changing the JSON shape."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "characterId": "frog-verifier",
+      "team": "animal-agent-team",
+      "source": "assets/characters/animal-agent-team/frog-verifier/frog-verifier_mvp_proxy_spritesheet.png",
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "columns": 4,
+      "rows": 10,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "status": "playable-proxy",
+      "actions": [
+        {
+          "id": "idle",
+          "row": 0,
+          "frames": 4,
+          "fps": 5,
+          "source": "assets/characters/animal-agent-team/frog-verifier/frog-verifier_idle_proxy.png"
+        },
+        {
+          "id": "walk_down",
+          "row": 1,
+          "frames": 4,
+          "fps": 10,
+          "source": "assets/characters/animal-agent-team/frog-verifier/frog-verifier_walk_down_proxy.png"
+        },
+        {
+          "id": "walk_up",
+          "row": 2,
+          "frames": 4,
+          "fps": 10,
+          "source": "assets/characters/animal-agent-team/frog-verifier/frog-verifier_walk_up_proxy.png"
+        },
+        {
+          "id": "walk_left",
+          "row": 3,
+          "frames": 4,
+          "fps": 10,
+          "source": "assets/characters/animal-agent-team/frog-verifier/frog-verifier_walk_left_proxy.png"
+        },
+        {
+          "id": "walk_right",
+          "row": 4,
+          "frames": 4,
+          "fps": 10,
+          "source": "assets/characters/animal-agent-team/frog-verifier/frog-verifier_walk_right_proxy.png"
+        },
+        {
+          "id": "planning",
+          "row": 5,
+          "frames": 4,
+          "fps": 7,
+          "source": "assets/characters/animal-agent-team/frog-verifier/frog-verifier_planning_proxy.png"
+        },
+        {
+          "id": "working",
+          "row": 6,
+          "frames": 4,
+          "fps": 7,
+          "source": "assets/characters/animal-agent-team/frog-verifier/frog-verifier_working_proxy.png"
+        },
+        {
+          "id": "verifying",
+          "row": 7,
+          "frames": 4,
+          "fps": 7,
+          "source": "assets/characters/animal-agent-team/frog-verifier/frog-verifier_verifying_proxy.png"
+        },
+        {
+          "id": "blocked",
+          "row": 8,
+          "frames": 4,
+          "fps": 7,
+          "source": "assets/characters/animal-agent-team/frog-verifier/frog-verifier_blocked_proxy.png"
+        },
+        {
+          "id": "done",
+          "row": 9,
+          "frames": 4,
+          "fps": 7,
+          "source": "assets/characters/animal-agent-team/frog-verifier/frog-verifier_done_proxy.png"
+        }
+      ],
+      "notes": [
+        "Generated from the D-stage portrait art with deterministic pose offsets and state props.",
+        "Suitable for PixiJS playback and prototype state mapping.",
+        "Future production pass can replace individual action rows without changing the JSON shape."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "characterId": "black-fur-cat-ops",
+      "team": "kawaii-cat-team",
+      "source": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_mvp_proxy_spritesheet.png",
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "columns": 4,
+      "rows": 10,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "status": "playable-proxy",
+      "actions": [
+        {
+          "id": "idle",
+          "row": 0,
+          "frames": 4,
+          "fps": 5,
+          "source": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_idle_proxy.png"
+        },
+        {
+          "id": "walk_down",
+          "row": 1,
+          "frames": 4,
+          "fps": 10,
+          "source": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_walk_down_proxy.png"
+        },
+        {
+          "id": "walk_up",
+          "row": 2,
+          "frames": 4,
+          "fps": 10,
+          "source": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_walk_up_proxy.png"
+        },
+        {
+          "id": "walk_left",
+          "row": 3,
+          "frames": 4,
+          "fps": 10,
+          "source": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_walk_left_proxy.png"
+        },
+        {
+          "id": "walk_right",
+          "row": 4,
+          "frames": 4,
+          "fps": 10,
+          "source": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_walk_right_proxy.png"
+        },
+        {
+          "id": "planning",
+          "row": 5,
+          "frames": 4,
+          "fps": 7,
+          "source": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_planning_proxy.png"
+        },
+        {
+          "id": "working",
+          "row": 6,
+          "frames": 4,
+          "fps": 7,
+          "source": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_working_proxy.png"
+        },
+        {
+          "id": "verifying",
+          "row": 7,
+          "frames": 4,
+          "fps": 7,
+          "source": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_verifying_proxy.png"
+        },
+        {
+          "id": "blocked",
+          "row": 8,
+          "frames": 4,
+          "fps": 7,
+          "source": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_blocked_proxy.png"
+        },
+        {
+          "id": "done",
+          "row": 9,
+          "frames": 4,
+          "fps": 7,
+          "source": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_done_proxy.png"
+        }
+      ],
+      "notes": [
+        "Generated from the D-stage portrait art with deterministic pose offsets and state props.",
+        "Suitable for PixiJS playback and prototype state mapping.",
+        "Future production pass can replace individual action rows without changing the JSON shape."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "characterId": "tea-cat-engineer",
+      "team": "kawaii-cat-team",
+      "source": "assets/characters/kawaii-cat-team/tea-cat-engineer/tea-cat-engineer_mvp_proxy_spritesheet.png",
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "columns": 4,
+      "rows": 10,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "status": "playable-proxy",
+      "actions": [
+        {
+          "id": "idle",
+          "row": 0,
+          "frames": 4,
+          "fps": 5,
+          "source": "assets/characters/kawaii-cat-team/tea-cat-engineer/tea-cat-engineer_idle_proxy.png"
+        },
+        {
+          "id": "walk_down",
+          "row": 1,
+          "frames": 4,
+          "fps": 10,
+          "source": "assets/characters/kawaii-cat-team/tea-cat-engineer/tea-cat-engineer_walk_down_proxy.png"
+        },
+        {
+          "id": "walk_up",
+          "row": 2,
+          "frames": 4,
+          "fps": 10,
+          "source": "assets/characters/kawaii-cat-team/tea-cat-engineer/tea-cat-engineer_walk_up_proxy.png"
+        },
+        {
+          "id": "walk_left",
+          "row": 3,
+          "frames": 4,
+          "fps": 10,
+          "source": "assets/characters/kawaii-cat-team/tea-cat-engineer/tea-cat-engineer_walk_left_proxy.png"
+        },
+        {
+          "id": "walk_right",
+          "row": 4,
+          "frames": 4,
+          "fps": 10,
+          "source": "assets/characters/kawaii-cat-team/tea-cat-engineer/tea-cat-engineer_walk_right_proxy.png"
+        },
+        {
+          "id": "planning",
+          "row": 5,
+          "frames": 4,
+          "fps": 7,
+          "source": "assets/characters/kawaii-cat-team/tea-cat-engineer/tea-cat-engineer_planning_proxy.png"
+        },
+        {
+          "id": "working",
+          "row": 6,
+          "frames": 4,
+          "fps": 7,
+          "source": "assets/characters/kawaii-cat-team/tea-cat-engineer/tea-cat-engineer_working_proxy.png"
+        },
+        {
+          "id": "verifying",
+          "row": 7,
+          "frames": 4,
+          "fps": 7,
+          "source": "assets/characters/kawaii-cat-team/tea-cat-engineer/tea-cat-engineer_verifying_proxy.png"
+        },
+        {
+          "id": "blocked",
+          "row": 8,
+          "frames": 4,
+          "fps": 7,
+          "source": "assets/characters/kawaii-cat-team/tea-cat-engineer/tea-cat-engineer_blocked_proxy.png"
+        },
+        {
+          "id": "done",
+          "row": 9,
+          "frames": 4,
+          "fps": 7,
+          "source": "assets/characters/kawaii-cat-team/tea-cat-engineer/tea-cat-engineer_done_proxy.png"
+        }
+      ],
+      "notes": [
+        "Generated from the D-stage portrait art with deterministic pose offsets and state props.",
+        "Suitable for PixiJS playback and prototype state mapping.",
+        "Future production pass can replace individual action rows without changing the JSON shape."
+      ]
+    }
+  ],
+  "advancedActionSheets": [
+    {
+      "schemaVersion": 1,
+      "characterId": "white-bow-cat-pm",
+      "team": "kawaii-cat-team",
+      "source": "assets/characters/kawaii-cat-team/white-bow-cat-pm/white-bow-cat-pm_advanced_spritesheet.png",
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "columns": 4,
+      "rows": 3,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "status": "playable-proxy",
+      "actions": [
+        {
+          "id": "handoff",
+          "row": 0,
+          "frames": 4,
+          "fps": 7,
+          "source": "assets/characters/kawaii-cat-team/white-bow-cat-pm/white-bow-cat-pm_handoff_advanced_proxy.png"
+        },
+        {
+          "id": "summon_subagent",
+          "row": 1,
+          "frames": 4,
+          "fps": 7,
+          "source": "assets/characters/kawaii-cat-team/white-bow-cat-pm/white-bow-cat-pm_summon_subagent_advanced_proxy.png"
+        },
+        {
+          "id": "merge_result",
+          "row": 2,
+          "frames": 4,
+          "fps": 7,
+          "source": "assets/characters/kawaii-cat-team/white-bow-cat-pm/white-bow-cat-pm_merge_result_advanced_proxy.png"
+        }
+      ],
+      "notes": [
+        "Generated from the D-stage portrait art with deterministic pose offsets and state props.",
+        "Suitable for PixiJS playback and prototype state mapping.",
+        "Future production pass can replace individual action rows without changing the JSON shape."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "characterId": "beaver-builder",
+      "team": "animal-agent-team",
+      "source": "assets/characters/animal-agent-team/beaver-builder/beaver-builder_advanced_spritesheet.png",
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "columns": 4,
+      "rows": 3,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "status": "playable-proxy",
+      "actions": [
+        {
+          "id": "handoff",
+          "row": 0,
+          "frames": 4,
+          "fps": 7,
+          "source": "assets/characters/animal-agent-team/beaver-builder/beaver-builder_handoff_advanced_proxy.png"
+        },
+        {
+          "id": "summon_subagent",
+          "row": 1,
+          "frames": 4,
+          "fps": 7,
+          "source": "assets/characters/animal-agent-team/beaver-builder/beaver-builder_summon_subagent_advanced_proxy.png"
+        },
+        {
+          "id": "merge_result",
+          "row": 2,
+          "frames": 4,
+          "fps": 7,
+          "source": "assets/characters/animal-agent-team/beaver-builder/beaver-builder_merge_result_advanced_proxy.png"
+        }
+      ],
+      "notes": [
+        "Generated from the D-stage portrait art with deterministic pose offsets and state props.",
+        "Suitable for PixiJS playback and prototype state mapping.",
+        "Future production pass can replace individual action rows without changing the JSON shape."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "characterId": "red-panda-manager",
+      "team": "animal-agent-team",
+      "source": "assets/characters/animal-agent-team/red-panda-manager/red-panda-manager_advanced_spritesheet.png",
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "columns": 4,
+      "rows": 3,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "status": "playable-proxy",
+      "actions": [
+        {
+          "id": "handoff",
+          "row": 0,
+          "frames": 4,
+          "fps": 7,
+          "source": "assets/characters/animal-agent-team/red-panda-manager/red-panda-manager_handoff_advanced_proxy.png"
+        },
+        {
+          "id": "summon_subagent",
+          "row": 1,
+          "frames": 4,
+          "fps": 7,
+          "source": "assets/characters/animal-agent-team/red-panda-manager/red-panda-manager_summon_subagent_advanced_proxy.png"
+        },
+        {
+          "id": "merge_result",
+          "row": 2,
+          "frames": 4,
+          "fps": 7,
+          "source": "assets/characters/animal-agent-team/red-panda-manager/red-panda-manager_merge_result_advanced_proxy.png"
+        }
+      ],
+      "notes": [
+        "Generated from the D-stage portrait art with deterministic pose offsets and state props.",
+        "Suitable for PixiJS playback and prototype state mapping.",
+        "Future production pass can replace individual action rows without changing the JSON shape."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "characterId": "frog-verifier",
+      "team": "animal-agent-team",
+      "source": "assets/characters/animal-agent-team/frog-verifier/frog-verifier_advanced_spritesheet.png",
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "columns": 4,
+      "rows": 3,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "status": "playable-proxy",
+      "actions": [
+        {
+          "id": "handoff",
+          "row": 0,
+          "frames": 4,
+          "fps": 7,
+          "source": "assets/characters/animal-agent-team/frog-verifier/frog-verifier_handoff_advanced_proxy.png"
+        },
+        {
+          "id": "summon_subagent",
+          "row": 1,
+          "frames": 4,
+          "fps": 7,
+          "source": "assets/characters/animal-agent-team/frog-verifier/frog-verifier_summon_subagent_advanced_proxy.png"
+        },
+        {
+          "id": "merge_result",
+          "row": 2,
+          "frames": 4,
+          "fps": 7,
+          "source": "assets/characters/animal-agent-team/frog-verifier/frog-verifier_merge_result_advanced_proxy.png"
+        }
+      ],
+      "notes": [
+        "Generated from the D-stage portrait art with deterministic pose offsets and state props.",
+        "Suitable for PixiJS playback and prototype state mapping.",
+        "Future production pass can replace individual action rows without changing the JSON shape."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "characterId": "black-fur-cat-ops",
+      "team": "kawaii-cat-team",
+      "source": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_advanced_spritesheet.png",
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "columns": 4,
+      "rows": 3,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "status": "playable-proxy",
+      "actions": [
+        {
+          "id": "handoff",
+          "row": 0,
+          "frames": 4,
+          "fps": 7,
+          "source": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_handoff_advanced_proxy.png"
+        },
+        {
+          "id": "summon_subagent",
+          "row": 1,
+          "frames": 4,
+          "fps": 7,
+          "source": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_summon_subagent_advanced_proxy.png"
+        },
+        {
+          "id": "merge_result",
+          "row": 2,
+          "frames": 4,
+          "fps": 7,
+          "source": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_merge_result_advanced_proxy.png"
+        }
+      ],
+      "notes": [
+        "Generated from the D-stage portrait art with deterministic pose offsets and state props.",
+        "Suitable for PixiJS playback and prototype state mapping.",
+        "Future production pass can replace individual action rows without changing the JSON shape."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "characterId": "tea-cat-engineer",
+      "team": "kawaii-cat-team",
+      "source": "assets/characters/kawaii-cat-team/tea-cat-engineer/tea-cat-engineer_advanced_spritesheet.png",
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "columns": 4,
+      "rows": 3,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "status": "playable-proxy",
+      "actions": [
+        {
+          "id": "handoff",
+          "row": 0,
+          "frames": 4,
+          "fps": 7,
+          "source": "assets/characters/kawaii-cat-team/tea-cat-engineer/tea-cat-engineer_handoff_advanced_proxy.png"
+        },
+        {
+          "id": "summon_subagent",
+          "row": 1,
+          "frames": 4,
+          "fps": 7,
+          "source": "assets/characters/kawaii-cat-team/tea-cat-engineer/tea-cat-engineer_summon_subagent_advanced_proxy.png"
+        },
+        {
+          "id": "merge_result",
+          "row": 2,
+          "frames": 4,
+          "fps": 7,
+          "source": "assets/characters/kawaii-cat-team/tea-cat-engineer/tea-cat-engineer_merge_result_advanced_proxy.png"
+        }
+      ],
+      "notes": [
+        "Generated from the D-stage portrait art with deterministic pose offsets and state props.",
+        "Suitable for PixiJS playback and prototype state mapping.",
+        "Future production pass can replace individual action rows without changing the JSON shape."
+      ]
+    }
+  ],
+  "reviewPreviews": {
+    "d1TileProps": "assets/review/d/d1_tile_prop_contact_sheet.png",
+    "d2d3Portraits": "assets/review/d/d2_d3_portrait_contact_sheet_96.png",
+    "d4MvpProxySheets": "assets/review/d/d4_mvp_proxy_spritesheets_contact_sheet.png",
+    "d4AdvancedSheets": "assets/review/d/d4_advanced_actions_contact_sheet.png"
+  },
+  "notes": [
+    "D2 and D3 portraits are generated from original character atlases and do not use protected IP names.",
+    "D4 proxy sheets are playable prototype animation assets, not final hand-authored animation.",
+    "Existing refined production sheets for white-bow-cat-pm, beaver-builder, and mini-cat-subagent remain the preferred in-app sheets."
+  ]
+}

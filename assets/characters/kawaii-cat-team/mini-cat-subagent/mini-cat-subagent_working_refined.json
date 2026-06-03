@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "characterId": "mini-cat-subagent",
+  "team": "kawaii-cat-team",
+  "action": "working",
+  "source": "assets/characters/kawaii-cat-team/mini-cat-subagent/mini-cat-subagent_working_refined.png",
+  "frameWidth": 256,
+  "frameHeight": 256,
+  "frames": 4,
+  "fps": 7,
+  "anchor": {
+    "x": 0.5,
+    "y": 1.0
+  },
+  "status": "validated-candidate",
+  "validationPreview": "assets/review/spritesheets/mini-cat-subagent_working_refined_row_96.png",
+  "notes": [
+    "Per-action 4-frame working row generated on magenta chroma background.",
+    "Frames were cropped individually, background-removed with ImageMagick, edge-contracted by 1px, resized to max 192x192, and gravity-south extended to 256x256.",
+    "Working gesture uses compact blank file cards and helper poses with no large computer, readable text, or logos."
+  ]
+}

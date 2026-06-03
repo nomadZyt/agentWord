@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "characterId": "black-fur-cat-ops",
+  "team": "kawaii-cat-team",
+  "source": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_mvp_proxy_spritesheet.png",
+  "frameWidth": 256,
+  "frameHeight": 256,
+  "columns": 4,
+  "rows": 10,
+  "anchor": {
+    "x": 0.5,
+    "y": 1
+  },
+  "status": "playable-proxy",
+  "actions": [
+    {
+      "id": "idle",
+      "row": 0,
+      "frames": 4,
+      "fps": 5,
+      "source": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_idle_proxy.png"
+    },
+    {
+      "id": "walk_down",
+      "row": 1,
+      "frames": 4,
+      "fps": 10,
+      "source": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_walk_down_proxy.png"
+    },
+    {
+      "id": "walk_up",
+      "row": 2,
+      "frames": 4,
+      "fps": 10,
+      "source": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_walk_up_proxy.png"
+    },
+    {
+      "id": "walk_left",
+      "row": 3,
+      "frames": 4,
+      "fps": 10,
+      "source": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_walk_left_proxy.png"
+    },
+    {
+      "id": "walk_right",
+      "row": 4,
+      "frames": 4,
+      "fps": 10,
+      "source": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_walk_right_proxy.png"
+    },
+    {
+      "id": "planning",
+      "row": 5,
+      "frames": 4,
+      "fps": 7,
+      "source": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_planning_proxy.png"
+    },
+    {
+      "id": "working",
+      "row": 6,
+      "frames": 4,
+      "fps": 7,
+      "source": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_working_proxy.png"
+    },
+    {
+      "id": "verifying",
+      "row": 7,
+      "frames": 4,
+      "fps": 7,
+      "source": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_verifying_proxy.png"
+    },
+    {
+      "id": "blocked",
+      "row": 8,
+      "frames": 4,
+      "fps": 7,
+      "source": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_blocked_proxy.png"
+    },
+    {
+      "id": "done",
+      "row": 9,
+      "frames": 4,
+      "fps": 7,
+      "source": "assets/characters/kawaii-cat-team/black-fur-cat-ops/black-fur-cat-ops_done_proxy.png"
+    }
+  ],
+  "notes": [
+    "Generated from the D-stage portrait art with deterministic pose offsets and state props.",
+    "Suitable for PixiJS playback and prototype state mapping.",
+    "Future production pass can replace individual action rows without changing the JSON shape."
+  ]
+}
