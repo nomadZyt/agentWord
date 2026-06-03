@@ -39,6 +39,13 @@ const getRealAgentSourceLabel = (agent: AgentSession) =>
   agent.taskSourceLabel ??
   agent.role;
 
+const getAgentIsLiveWorkerSession = (agent: AgentSession) =>
+  agent.isReal &&
+  (agent.presenceStatus ?? "live") === "live" &&
+  (agent.processKind === "claude_cli" ||
+    agent.processKind === "codex_app_server" ||
+    agent.processKind === "codex_cli");
+
 const sceneDensityModeLabels: Record<SceneDensityMode, string> = {
   live: "live flow",
   readability: "6 + mini",
@@ -113,6 +120,8 @@ export function MonitorStatus() {
     (agent) =>
       agent.presenceStatus === "stale" || agent.presenceStatus === "gone",
   ).length;
+  const liveWorkerSessionCount = realAgents.filter(getAgentIsLiveWorkerSession)
+    .length;
   const sourceCount = new Set(
     realAgents
       .map((agent) => getRealAgentSourceLabel(agent))
@@ -217,6 +226,13 @@ export function MonitorStatus() {
           </span>
           <strong>{runningTasks}</strong>
         </div>
+        <div className="live-row is-live">
+          <span>
+            <Cpu size={16} aria-hidden="true" />
+            Active Sessions
+          </span>
+          <strong>{liveWorkerSessionCount}</strong>
+        </div>
         <div className="live-row is-alert">
           <span>
             <AlertTriangle size={16} aria-hidden="true" />
@@ -244,14 +260,14 @@ export function MonitorStatus() {
         <div className="source-row source-codex">
           <span>
             <Bot size={14} aria-hidden="true" />
-            Codex
+            Codex Sessions
           </span>
           <strong>{codexSourceCount}</strong>
         </div>
         <div className="source-row source-claude">
           <span>
             <GitBranch size={14} aria-hidden="true" />
-            Claude
+            Claude Sessions
           </span>
           <strong>{claudeSourceCount}</strong>
         </div>

@@ -76,10 +76,30 @@ export interface SceneFlowNodePlacement {
   width: number;
 }
 
+export interface RealSessionWaitingZonePlacement {
+  activeCount: number;
+  count: number;
+  focus: Point;
+  height: number;
+  label: string;
+  position: Point;
+  width: number;
+}
+
+export const REAL_SESSION_WAITING_ROOM_ID = "real_session_waiting";
+
 const prototypeRegionLayout = {
   blockedCenter: {
     focus: { x: 990, y: 520 },
     position: { x: 1004, y: 520 },
+  },
+  realSessionWaiting: {
+    focus: { x: 766, y: 842 },
+    height: 166,
+    position: { x: 766, y: 848 },
+    width: 690,
+    x: 421,
+    y: 758,
   },
   taskCenter: {
     focus: { x: 596, y: 522 },
@@ -109,6 +129,16 @@ const getTaskOccupantIds = (task: TaskCard) =>
   [task.assigneeAgentId, ...task.subagentIds].filter(
     (agentId): agentId is string => Boolean(agentId),
   );
+
+const getUnboundRealSessions = (agents: AgentSession[], tasks: TaskCard[]) =>
+  agents.filter((agent) => agent.isReal && !findActiveTaskForAgent(agent, tasks));
+
+const getIsLiveWorkerRealSession = (agent: AgentSession) =>
+  agent.isReal &&
+  (agent.presenceStatus ?? "live") === "live" &&
+  (agent.processKind === "claude_cli" ||
+    agent.processKind === "codex_app_server" ||
+    agent.processKind === "codex_cli");
 
 const getDeskGrid = (count: number) => {
   if (count <= 1) {
@@ -145,6 +175,69 @@ const getCapacityTier = (
   return "comfortable";
 };
 
+const getRealSessionWaitingColumns = (count: number) => {
+  if (count <= 1) {
+    return 1;
+  }
+
+  if (count <= 4) {
+    return count;
+  }
+
+  if (count <= 8) {
+    return 4;
+  }
+
+  if (count <= 15) {
+    return 5;
+  }
+
+  if (count <= 24) {
+    return 8;
+  }
+
+  return 10;
+};
+
+const getRealSessionWaitingScale = (count: number) => {
+  if (count > 24) {
+    return 0.18;
+  }
+
+  if (count > 15) {
+    return 0.2;
+  }
+
+  if (count > 8) {
+    return 0.22;
+  }
+
+  return 0.24;
+};
+
+const getRealSessionWaitingPosition = (index: number, count: number): Point => {
+  const zone = prototypeRegionLayout.realSessionWaiting;
+  const columns = getRealSessionWaitingColumns(count);
+  const rows = Math.ceil(count / columns);
+  const visibleColumns = Math.min(count, columns);
+  const column = index % columns;
+  const row = Math.floor(index / columns);
+  const cellWidth = Math.min(82, zone.width / Math.max(columns, 1));
+  const cellHeight = Math.min(54, zone.height / Math.max(rows, 1));
+  const gridWidth = (visibleColumns - 1) * cellWidth;
+  const gridHeight = (rows - 1) * cellHeight;
+  const x =
+    zone.position.x -
+    gridWidth / 2 +
+    column * cellWidth +
+    (row === rows - 1 && count % columns > 0 && rows > 1
+      ? ((columns - (count % columns)) * cellWidth) / 2
+      : 0);
+  const y = zone.position.y - gridHeight / 2 + row * cellHeight;
+
+  return { x, y };
+};
+
 const getSeatOffsets = (
   occupantCount: number,
   deskScale: number,
@@ -177,6 +270,31 @@ const getSeatOffsets = (
     x: offset.x * scale,
     y: offset.y * scale,
   }));
+};
+
+export const buildRealSessionWaitingZone = (
+  agents: AgentSession[],
+  tasks: TaskCard[],
+): RealSessionWaitingZonePlacement => {
+  const sessions = getUnboundRealSessions(agents, tasks);
+  const count = sessions.length;
+  const activeCount = sessions.filter(getIsLiveWorkerRealSession).length;
+  const zone = prototypeRegionLayout.realSessionWaiting;
+
+  return {
+    activeCount,
+    count,
+    focus: zone.focus,
+    height: zone.height,
+    label:
+      activeCount > 0
+        ? `Active Sessions · ${activeCount}`
+        : count > 0
+          ? `Live Sessions · ${count}`
+          : "Live Session Area",
+    position: zone.position,
+    width: zone.width,
+  };
 };
 
 export const buildTaskDeskPlacements = (tasks: TaskCard[]) => {
@@ -449,18 +567,18 @@ const buildReadabilitySceneAgents = (agents: AgentSession[]) => {
 
     if (agent.isReal) {
       const position = {
-        x: 666 + (realAgentIndex % 7) * 28,
-        y: 124 + Math.floor(realAgentIndex / 7) * 24,
+        x: 560 + (realAgentIndex % 8) * 44,
+        y: 790 + Math.floor(realAgentIndex / 8) * 36,
       };
       realAgentIndex += 1;
 
       return {
         ...agent,
-        roomId: "monitor_wall",
+        roomId: REAL_SESSION_WAITING_ROOM_ID,
         scene: {
           ...agent.scene,
           position,
-          scale: 0.22,
+          scale: 0.2,
         },
         status: "idle" as AgentStatus,
       };
@@ -569,14 +687,32 @@ export const buildSceneAgents = (
   });
 
   const roomOccupancy = new Map<string, number>();
+  const unboundRealAgents = agents.filter(
+    (agent) => agent.isReal && !occupiedSourceAgentIds.has(agent.id),
+  );
+  const unboundRealAgentIds = new Set(
+    getUnboundRealSessions(unboundRealAgents, tasks).map((agent) => agent.id),
+  );
+  const unboundRealAgentIndexById = new Map(
+    Array.from(unboundRealAgentIds).map(
+      (agentId, index) => [agentId, index] as const,
+    ),
+  );
+  const unboundRealCount = unboundRealAgentIds.size;
 
   const overflowAgents = agents
     .filter((agent) => !occupiedSourceAgentIds.has(agent.id))
     .filter((agent) => agent.isReal || agent.status === "idle" || agent.currentTaskId)
     .map((agent) => {
       const activeTask = findActiveTaskForAgent(agent, tasks);
+      const isUnboundRealSession = unboundRealAgentIds.has(agent.id);
+      const realSessionIndex = isUnboundRealSession
+        ? (unboundRealAgentIndexById.get(agent.id) ?? 0)
+        : -1;
       const roomId = activeTask
         ? getRoomIdForTaskStatus(activeTask.status)
+        : isUnboundRealSession
+          ? REAL_SESSION_WAITING_ROOM_ID
         : agent.roomId || fallbackRoomByAgentStatus[agent.status];
       const roomIndex = roomOccupancy.get(roomId) ?? 0;
       const offset = positionOffsets[roomIndex % positionOffsets.length];
@@ -593,13 +729,22 @@ export const buildSceneAgents = (
         roomId,
         scene: {
           ...agent.scene,
-          position: {
-            x: anchor.x + offset.x,
-            y: anchor.y + offset.y,
-          },
+          position: isUnboundRealSession
+            ? getRealSessionWaitingPosition(realSessionIndex, unboundRealCount)
+            : {
+                x: anchor.x + offset.x,
+                y: anchor.y + offset.y,
+              },
+          scale: isUnboundRealSession
+            ? getRealSessionWaitingScale(unboundRealCount)
+            : agent.scene.scale,
         },
         status: activeTask
           ? getAgentStatusForTaskStatus(activeTask.status)
+          : isUnboundRealSession
+            ? getIsLiveWorkerRealSession(agent)
+              ? "running"
+              : "idle"
           : agent.status,
       };
     });

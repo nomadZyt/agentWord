@@ -50,6 +50,12 @@ function SummaryStrip({ summary }: { summary: TeamDashboardSummary }) {
       value: summary.runningTasks,
     },
     {
+      icon: RadioTower,
+      label: "Active Sessions",
+      tone: "good",
+      value: summary.activeRealSessions,
+    },
+    {
       icon: AlertTriangle,
       label: "Blocked",
       value: summary.blockedTasks,
@@ -97,7 +103,11 @@ function SourceBreakdown({ sources }: { sources: TeamSourceBreakdown[] }) {
             <RadioTower size={13} aria-hidden="true" />
           </span>
           <span>{source.label}</span>
-          <strong>{source.taskCount || source.agentCount}</strong>
+          <strong>
+            {source.processCount > 0
+              ? `${source.processCount} sessions`
+              : source.taskCount || source.agentCount}
+          </strong>
         </div>
       ))}
     </div>
@@ -287,9 +297,6 @@ export function TeamDashboard() {
           <span className="eyebrow">Team Dashboard</span>
           <h2>Team Dashboard</h2>
         </div>
-        <span className="dashboard-toggle-hint" title="右上角按钮可折叠面板">
-          <CheckCircle2 size={16} aria-hidden="true" />
-        </span>
       </div>
 
       <div className="team-dashboard-scroll">

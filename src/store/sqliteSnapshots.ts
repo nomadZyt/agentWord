@@ -13,6 +13,7 @@ import type {
 } from "../types/domain";
 
 const snapshotVersion = 1;
+const generatedRealSessionTaskPrefix = "real-session-task-";
 const agentSources = ["codex", "claude", "simulated"] satisfies AgentSource[];
 const agentAppTypes = [
   "app",
@@ -150,6 +151,10 @@ const normalizeTask = (value: unknown): TaskCard | null => {
     return null;
   }
 
+  if (id.startsWith(generatedRealSessionTaskPrefix)) {
+    return null;
+  }
+
   return {
     id,
     title,
@@ -243,7 +248,9 @@ export const createAgentWorldSnapshot = (input: {
       parentPid: undefined,
       isReal: false,
     })),
-  tasks: input.tasks,
+  tasks: input.tasks.filter(
+    (task) => !task.id.startsWith(generatedRealSessionTaskPrefix),
+  ),
   events: input.events,
   selectedTaskId: input.selectedTaskId,
   selectedAgentId: input.selectedAgentId,

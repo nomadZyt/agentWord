@@ -34,6 +34,9 @@ export interface TeamDashboardSummary {
   completedTasks: number;
   realAgents: number;
   demoAgents: number;
+  boundRealSessions: number;
+  unboundRealSessions: number;
+  activeRealSessions: number;
   liveAgents: number;
   staleAgents: number;
   goneAgents: number;
@@ -248,6 +251,21 @@ const getAgentLabel = (
 
 const getTaskAssignee = (task: TaskCard, agentsById: Map<string, AgentSession>) =>
   task.assigneeAgentId ? agentsById.get(task.assigneeAgentId) : undefined;
+
+const getAgentHasTaskBinding = (agent: AgentSession, tasks: TaskCard[]) =>
+  tasks.some(
+    (task) =>
+      task.id === agent.currentTaskId ||
+      task.assigneeAgentId === agent.id ||
+      task.subagentIds.includes(agent.id),
+  );
+
+const getAgentIsLiveWorkerSession = (agent: AgentSession) =>
+  agent.isReal &&
+  (agent.presenceStatus ?? "live") === "live" &&
+  (agent.processKind === "claude_cli" ||
+    agent.processKind === "codex_app_server" ||
+    agent.processKind === "codex_cli");
 
 const getTaskIsDemo = (task: TaskCard, assignee: AgentSession | undefined) =>
   Boolean(
@@ -522,6 +540,10 @@ const buildSources = (
       return right.taskCount - left.taskCount;
     }
 
+    if (right.processCount !== left.processCount) {
+      return right.processCount - left.processCount;
+    }
+
     return right.agentCount - left.agentCount;
   });
 };
@@ -644,11 +666,16 @@ export const buildTeamDashboardViewModel = ({
   const waitingTasks = tasks.filter(
     (task) => task.status === "queued" || !task.assigneeAgentId,
   );
+  const teamCardTaskCount = tasks.filter(
+    (task) => task.status !== "done" && task.status !== "queued",
+  ).length;
   const progressTotal = tasks.reduce((total, task) => total + task.progress, 0);
   const hasDemoData =
     preferences.isDemoFlowEnabled ||
     demoAgents.length > 0 ||
     tasks.some((task) => getTaskIsDemo(task, undefined));
+  const activeRealSessions = realAgents.filter(getAgentIsLiveWorkerSession)
+    .length;
 
   return {
     activity: buildActivity({ agents, events, preferences, selectedTaskId, tasks }),
@@ -660,8 +687,12 @@ export const buildTeamDashboardViewModel = ({
       tasks,
     }),
     emptyStateLabel:
-      tasks.length === 0
-        ? "No tasks are bound yet. Real sessions will appear after process scan."
+      teamCardTaskCount === 0
+        ? processScan?.total
+          ? activeRealSessions > 0
+            ? "Active real sessions are live but not bound to task desks yet."
+            : "Detected real sessions are available to bind to a task desk."
+          : "No active task desks yet. Real sessions will appear after process scan."
         : "No team cards match the current data.",
     health: getHealthView({
       preferences,
@@ -671,12 +702,16 @@ export const buildTeamDashboardViewModel = ({
     }),
     sources: buildSources(tasks, agents, processScan),
     summary: {
+      activeRealSessions,
       activeTasks: activeTasks.length,
       averageProgress:
         tasks.length > 0 ? clampProgress(progressTotal / tasks.length) : 0,
       blockedTasks: tasks.filter((task) => task.status === "blocked").length,
       completedTasks: tasks.filter((task) => task.status === "done").length,
       demoAgents: demoAgents.length,
+      boundRealSessions: realAgents.filter((agent) =>
+        getAgentHasTaskBinding(agent, tasks),
+      ).length,
       goneAgents: realAgents.filter((agent) => agent.presenceStatus === "gone")
         .length,
       hasDemoData,
@@ -689,6 +724,9 @@ export const buildTeamDashboardViewModel = ({
       staleAgents: realAgents.filter((agent) => agent.presenceStatus === "stale")
         .length,
       totalTasks: tasks.length,
+      unboundRealSessions: realAgents.filter(
+        (agent) => !getAgentHasTaskBinding(agent, tasks),
+      ).length,
       waitingTasks: waitingTasks.length,
     },
   };

@@ -18,6 +18,7 @@ import {
 import {
   buildSceneAgents,
   buildSceneFlowNodes,
+  buildRealSessionWaitingZone,
   buildTaskDeskPlacements,
   getPrototypeFocusForTaskStatus,
   getRoomIdForTaskStatus,
@@ -1115,6 +1116,10 @@ export function SceneCanvas() {
     [tasks],
   );
   const sceneFlowNodes = useMemo(() => buildSceneFlowNodes(tasks), [tasks]);
+  const realSessionWaitingZone = useMemo(
+    () => buildRealSessionWaitingZone(agents, tasks),
+    [agents, tasks],
+  );
   const selectedTaskPlacement = useMemo(
     () => taskDeskPlacements.find((item) => item.task.id === selectedTaskId),
     [selectedTaskId, taskDeskPlacements],
@@ -2074,7 +2079,7 @@ export function SceneCanvas() {
           >
             {selectedTask
               ? taskStatusLabel[selectedTask.status]
-              : `${taskDeskPlacements.length} teams`}
+              : `${taskDeskPlacements.length} teams · ${realSessionWaitingZone.count} sessions`}
           </div>
         </div>
       </div>
@@ -2129,6 +2134,21 @@ export function SceneCanvas() {
               {node.label}
             </button>
           ))}
+          {realSessionWaitingZone.count > 0 ? (
+            <div
+              aria-hidden="true"
+              className="real-session-waiting-zone"
+              style={{
+                height: realSessionWaitingZone.height,
+                left: realSessionWaitingZone.position.x,
+                top: realSessionWaitingZone.position.y,
+                width: realSessionWaitingZone.width,
+              }}
+            >
+              <span>{realSessionWaitingZone.label}</span>
+              <small>Unbound live sessions</small>
+            </div>
+          ) : null}
           {taskDeskPlacements.map((placement) => {
             const task = placement.task;
             const isSelected = task.id === selectedTaskId;

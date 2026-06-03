@@ -90,6 +90,136 @@ const getClockLabel = () =>
 const getSafeAgentDisplayName = (agent: AgentSession) =>
   agent.displayName.split(" #")[0];
 
+const realSessionTaskPrefix = "real-session-task-";
+
+const getRealSessionTaskId = (agentId: string) =>
+  `${realSessionTaskPrefix}${agentId}`;
+
+const isRealSessionTask = (task: Pick<TaskCard, "id">) =>
+  task.id.startsWith(realSessionTaskPrefix);
+
+const isLiveWorkerRealAgent = (agent: AgentSession) =>
+  agent.isReal &&
+  (agent.presenceStatus ?? "live") === "live" &&
+  (agent.processKind === "claude_cli" ||
+    agent.processKind === "codex_app_server" ||
+    agent.processKind === "codex_cli");
+
+const hasManualTaskBinding = (agent: AgentSession, tasks: TaskCard[]) =>
+  tasks.some(
+    (task) =>
+      !isRealSessionTask(task) &&
+      (task.id === agent.currentTaskId ||
+        task.assigneeAgentId === agent.id ||
+        task.subagentIds.includes(agent.id)),
+  );
+
+const getRealSessionTaskTitle = (agent: AgentSession) =>
+  [
+    getSafeAgentDisplayName(agent),
+    agent.workspaceLabel ?? agent.windowLabel ?? undefined,
+  ]
+    .filter(Boolean)
+    .join(" · ");
+
+const getRealSessionTaskDetails = (agent: AgentSession) =>
+  [
+    "真实会话自动任务桌；只使用进程类型、窗口和工作区标签，不读取终端正文或完整命令。",
+    agent.workspaceLabel ? `工作区：${agent.workspaceLabel}` : undefined,
+    agent.windowLabel ? `窗口：${agent.windowLabel}` : undefined,
+    agent.taskSourceLabel ? `来源：${agent.taskSourceLabel}` : undefined,
+  ]
+    .filter(Boolean)
+    .join(" ");
+
+const buildRealSessionTaskEvent = (
+  agent: AgentSession,
+  taskId: string,
+): SceneEvent => ({
+  actorId: agent.id,
+  createdAt: getClockLabel(),
+  id: `event-auto-bind-${Date.now()}-${agent.id}-${taskId}`,
+  message: `${getSafeAgentDisplayName(agent)}：检测为活跃真实会话，已自动绑定到任务桌。`,
+  taskId,
+  type: "handoff",
+});
+
+const syncLiveRealSessionTaskBindings = ({
+  agents,
+  eventLogLimit,
+  events,
+  tasks,
+}: {
+  agents: AgentSession[];
+  eventLogLimit: number;
+  events: SceneEvent[];
+  tasks: TaskCard[];
+}) => {
+  const activeAutoTaskIds = new Set<string>();
+  const nextEvents: SceneEvent[] = [];
+  const taskById = new Map(tasks.map((task) => [task.id, task]));
+  const nextTaskById = new Map(
+    tasks
+      .filter((task) => !isRealSessionTask(task))
+      .map((task) => [task.id, task] as const),
+  );
+
+  const nextAgents = agents.map((agent) => {
+    if (!isLiveWorkerRealAgent(agent)) {
+      return isRealSessionTask({ id: agent.currentTaskId ?? "" })
+        ? { ...agent, currentTaskId: undefined }
+        : agent;
+    }
+
+    if (hasManualTaskBinding(agent, tasks)) {
+      return agent;
+    }
+
+    const taskId = getRealSessionTaskId(agent.id);
+    const existingTask = taskById.get(taskId);
+    const createdAt = existingTask?.createdAt ?? new Date().toISOString();
+    const eventIds = [...(existingTask?.eventIds ?? [])];
+
+    activeAutoTaskIds.add(taskId);
+
+    if (!existingTask) {
+      const event = buildRealSessionTaskEvent(agent, taskId);
+      nextEvents.push(event);
+      eventIds.unshift(event.id);
+    }
+
+    nextTaskById.set(taskId, {
+      id: taskId,
+      title: getRealSessionTaskTitle(agent),
+      status: "running",
+      progress: 62,
+      assigneeAgentId: agent.id,
+      subagentIds: [],
+      details: getRealSessionTaskDetails(agent),
+      eventIds: eventIds.slice(0, 8),
+      createdAt,
+      updatedAt: new Date().toISOString(),
+    });
+
+    return {
+      ...agent,
+      currentTaskId: taskId,
+      status: "running" as AgentStatus,
+    };
+  });
+
+  return {
+    agents: nextAgents,
+    events:
+      nextEvents.length > 0
+        ? [...nextEvents, ...events].slice(0, eventLogLimit)
+        : events,
+    tasks: Array.from(nextTaskById.values()).filter(
+      (task) => !isRealSessionTask(task) || activeAutoTaskIds.has(task.id),
+    ),
+  };
+};
+
 const isSubagentLinkedTask = (task: TaskCard) =>
   task.assigneeAgentId === miniSubagentId ||
   task.subagentIds.includes(miniSubagentId);
@@ -196,10 +326,10 @@ const realAgentSpriteByKind: Record<AgentProcessInfo["kind"], string> = {
 };
 
 const realAgentStatusByKind: Record<AgentProcessInfo["kind"], AgentStatus> = {
-  claude_cli: "running",
+  claude_cli: "idle",
   codex_app: "idle",
-  codex_app_server: "running",
-  codex_cli: "running",
+  codex_app_server: "idle",
+  codex_cli: "idle",
 };
 const retiredRealAgentRoomId = "monitor_wall";
 
@@ -614,22 +744,31 @@ export const useAgentWorldStore = create<AgentWorldState>((set, get) => {
         selectedAgentId: agentId,
         selectedRoomId,
         selectedTaskId: taskId,
-        tasks: state.tasks.map((item) =>
-          item.id === taskId
-            ? {
-                ...item,
-                assigneeAgentId: agentId,
-                eventIds: [eventId, ...item.eventIds].slice(0, 8),
-                updatedAt: new Date().toISOString(),
-              }
-            : item.assigneeAgentId === agentId
+        tasks: state.tasks
+          .filter(
+            (item) =>
+              !(
+                isRealSessionTask(item) &&
+                item.assigneeAgentId === agentId &&
+                item.id !== taskId
+              ),
+          )
+          .map((item) =>
+            item.id === taskId
               ? {
                   ...item,
-                  assigneeAgentId: undefined,
+                  assigneeAgentId: agentId,
+                  eventIds: [eventId, ...item.eventIds].slice(0, 8),
                   updatedAt: new Date().toISOString(),
                 }
-              : item,
-        ),
+              : item.assigneeAgentId === agentId
+                ? {
+                    ...item,
+                    assigneeAgentId: undefined,
+                    updatedAt: new Date().toISOString(),
+                  }
+                : item,
+          ),
       });
     },
     clearRealAgentTaskBinding: (agentId) => {
@@ -673,19 +812,24 @@ export const useAgentWorldStore = create<AgentWorldState>((set, get) => {
         selectedRoomId: agent.roomId,
         selectedTaskId:
           state.selectedTaskId === task.id ? "" : state.selectedTaskId,
-        tasks: state.tasks.map((item) =>
-          item.assigneeAgentId === agentId
-            ? {
-                ...item,
-                assigneeAgentId: undefined,
-                eventIds:
-                  item.id === task.id
-                    ? [eventId, ...item.eventIds].slice(0, 8)
-                    : item.eventIds,
-                updatedAt: new Date().toISOString(),
-              }
-            : item,
-        ),
+        tasks: state.tasks
+          .filter(
+            (item) =>
+              !(isRealSessionTask(item) && item.assigneeAgentId === agentId),
+          )
+          .map((item) =>
+            item.assigneeAgentId === agentId
+              ? {
+                  ...item,
+                  assigneeAgentId: undefined,
+                  eventIds:
+                    item.id === task.id
+                      ? [eventId, ...item.eventIds].slice(0, 8)
+                      : item.eventIds,
+                  updatedAt: new Date().toISOString(),
+                }
+              : item,
+          ),
       });
     },
     focusAgent: (agentId) => {
@@ -906,7 +1050,7 @@ export const useAgentWorldStore = create<AgentWorldState>((set, get) => {
         }
 
         const currentState = get();
-        const agents = mergeRealAgents(
+        const mergedAgents = mergeRealAgents(
           processScan,
           currentState.agents,
           currentState.preferences.processRefreshIntervalMs,
@@ -914,10 +1058,23 @@ export const useAgentWorldStore = create<AgentWorldState>((set, get) => {
         const realLifecycleEvents = getRealAgentLifecycleEvents(
           processScan,
           currentState.agents,
-          agents,
+          mergedAgents,
           currentState.preferences.eventLogLimit,
           currentState.preferences.realAgentEventRuleMode,
         );
+        const syncedRealSessions = syncLiveRealSessionTaskBindings({
+          agents: mergedAgents,
+          eventLogLimit: currentState.preferences.eventLogLimit,
+          events:
+            realLifecycleEvents.length > 0
+              ? [...realLifecycleEvents, ...currentState.events].slice(
+                  0,
+                  currentState.preferences.eventLogLimit,
+                )
+              : currentState.events,
+          tasks: currentState.tasks,
+        });
+        const agents = syncedRealSessions.agents;
         const selectedAgentId = currentState.selectedAgentId;
         const taskFilters = currentState.taskFilters;
         const nextTaskFilters =
@@ -932,19 +1089,19 @@ export const useAgentWorldStore = create<AgentWorldState>((set, get) => {
 
         set({
           agents,
-          events:
-            realLifecycleEvents.length > 0
-              ? [...realLifecycleEvents, ...currentState.events].slice(
-                  0,
-                  currentState.preferences.eventLogLimit,
-                )
-              : currentState.events,
+          events: syncedRealSessions.events,
           processScan,
           processScanStatus: "ready",
           selectedAgentId: agents.some((agent) => agent.id === selectedAgentId)
             ? selectedAgentId
             : (agents.find((agent) => agent.isReal)?.id ?? ""),
+          selectedTaskId: syncedRealSessions.tasks.some(
+            (task) => task.id === currentState.selectedTaskId,
+          )
+            ? currentState.selectedTaskId
+            : (syncedRealSessions.tasks[0]?.id ?? ""),
           taskFilters: nextTaskFilters,
+          tasks: syncedRealSessions.tasks,
         });
       } catch (error) {
         set({
